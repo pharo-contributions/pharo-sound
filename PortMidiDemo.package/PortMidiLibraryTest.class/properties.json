@@ -4,9 +4,7 @@
 	"category" : "PortMidiDemo",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [
-		"DefaultBufferSize"
-	],
+	"classvars" : [ ],
 	"instvars" : [
 		"instance",
 		"input",

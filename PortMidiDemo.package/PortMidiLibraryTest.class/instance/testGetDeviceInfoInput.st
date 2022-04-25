@@ -1,4 +1,4 @@
-tests
+ioManagement
 testGetDeviceInfoInput
 	"Tests if PortMidi library can get infos on an input device."
 	| infos |

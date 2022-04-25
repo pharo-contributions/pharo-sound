@@ -1,4 +1,4 @@
-tests
+messagesManagement
 testWriteShortMessage
 	"Tests if PortMidi library can write a single message in a MIDIout stream."
 

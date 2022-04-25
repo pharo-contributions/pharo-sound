@@ -1,4 +1,4 @@
-tests
+messagesManagement
 testPortMidiCreateMessage
 	"Tests if PortMidi library can create a message from a status and two different datas."
 	| message |

@@ -1,4 +1,4 @@
-tests
+messagesManagement
 testAdvancedReadMessage
 	| inputAddr outputAddr message buffer result |
 	

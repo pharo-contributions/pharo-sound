@@ -1,4 +1,4 @@
-tests
+messagesManagement
 testReadTwoMessages
 	| outputAddr inputAddr noteOn noteOff buffer result status data1 data2|
 	instance := PortMidiLibrary uniqueInstance.

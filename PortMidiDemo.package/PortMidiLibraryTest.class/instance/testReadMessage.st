@@ -1,4 +1,4 @@
-tests
+messagesManagement
 testReadMessage
 	"Tests if PortMidi library can receive a MIDI message on a MIDIin stream and that each part of the message is well 	transmitted."
 	

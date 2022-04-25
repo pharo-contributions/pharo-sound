@@ -1,4 +1,4 @@
-tests
+messagesManagement
 testGetFirstDataFromMessage
 	"Tests wether PortMidi library can get first data of a MIDI message or not."
 	| message |

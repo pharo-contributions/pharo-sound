@@ -1,4 +1,4 @@
-tests
+messagesManagement
 testGetStatusFromMessage
 	"Tests wether PortMidi library can get the status of a MIDI message or not."
 	| message |

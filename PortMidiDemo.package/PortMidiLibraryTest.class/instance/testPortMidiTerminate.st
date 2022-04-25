@@ -1,4 +1,4 @@
-tests
+libraryManagement
 testPortMidiTerminate
 	"Tests if PortMidi library can be well terminated."
 	PortMidiLibrary uniqueInstance portMidiInitialize.

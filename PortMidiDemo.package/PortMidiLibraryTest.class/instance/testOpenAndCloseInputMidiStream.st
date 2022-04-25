@@ -1,4 +1,4 @@
-tests
+ioManagement
 testOpenAndCloseInputMidiStream
 	"Tests if PortMidi library can open and close a MIDI input stream from a MIDI input device ID."
 

@@ -1,4 +1,4 @@
-tests
+messagesManagement
 testGetSecondDataFromMessage
 	"Tests wether PortMidi library can get second data of a MIDI message or not."
 	| message |

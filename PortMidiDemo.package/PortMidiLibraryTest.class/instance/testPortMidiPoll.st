@@ -1,4 +1,4 @@
-tests
+messagesManagement
 testPortMidiPoll
 	| outputAddr inputAddr message |
 	outputAddr := self instance createNewPointerForStreamWithType:'void**'.
