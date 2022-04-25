@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "AntoineDelaby 4/25/2022 11:52",
+	"super" : "FFIStructure",
+	"category" : "PortMidiDemo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"OFFSET_MESSAGE",
+		"OFFSET_TIMESTAMP"
+	],
+	"instvars" : [ ],
+	"name" : "PortMidiEvent",
+	"type" : "normal"
+}

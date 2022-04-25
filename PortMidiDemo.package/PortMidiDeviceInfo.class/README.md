@@ -1,0 +1,1 @@
+I represent the PmDeviceInfo structure of the external C library PortMidi.
