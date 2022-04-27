@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "AntoineDelaby 4/26/2022 09:05",
+	"super" : "Object",
+	"category" : "PortMidiDemo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"noteName",
+		"noteValue"
+	],
+	"name" : "Note",
+	"type" : "normal"
+}

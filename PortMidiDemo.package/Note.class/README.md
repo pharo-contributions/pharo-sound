@@ -1,0 +1,1 @@
+I represent a note at a low level on interactions with the external C library PortMidiLibrary.
