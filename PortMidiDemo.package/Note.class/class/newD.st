@@ -1,5 +1,5 @@
 instance creation
 newD
-	^ self new noteName: #( D ); 
-				  noteValue: 16r3D;
+	^ self new noteName: #( 'D' ); 
+				  noteValue: 16r3E;
 				  yourself
