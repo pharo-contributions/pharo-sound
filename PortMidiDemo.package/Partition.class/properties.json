@@ -6,7 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"midiOut"
+		"defaultOutput",
+		"midiOut",
+		"tempo"
 	],
 	"name" : "Partition",
 	"type" : "normal"

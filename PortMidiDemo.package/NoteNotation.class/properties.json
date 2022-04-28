@@ -1,11 +1,15 @@
 {
 	"commentStamp" : "",
-	"super" : "TestCase",
+	"super" : "Object",
 	"category" : "PortMidiDemo",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "NoteTest",
+	"instvars" : [
+		"note",
+		"octave",
+		"duration"
+	],
+	"name" : "NoteNotation",
 	"type" : "normal"
 }

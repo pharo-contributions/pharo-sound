@@ -1,5 +1,5 @@
 tests
-testPlayNote
+testNextPlayNote
 	| aPartition noteC|
 	aPartition := Partition new.
 	aPartition openMidiOutWithDevice: instance getDefaultOutputDeviceID.
