@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "AntoineDelaby 4/29/2022 15:16",
 	"super" : "Object",
 	"category" : "PortMidiDemo",
 	"classinstvars" : [ ],
@@ -8,7 +8,8 @@
 	"instvars" : [
 		"defaultOutput",
 		"midiOut",
-		"tempo"
+		"tempo",
+		"melody"
 	],
 	"name" : "Partition",
 	"type" : "normal"
