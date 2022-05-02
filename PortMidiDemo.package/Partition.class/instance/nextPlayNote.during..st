@@ -1,5 +1,6 @@
-as yet unclassified
+noteManagement
 nextPlayNote: aNote during: aTime
+	"Plays aNote during aTime milliseconds"
 	| instance message |
 	instance := PortMidiLibrary uniqueInstance.
 	message := self createNoteOnFor: aNote andVelocity: 16r40.

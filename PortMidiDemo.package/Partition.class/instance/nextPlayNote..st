@@ -1,5 +1,6 @@
-as yet unclassified
+noteManagement
 nextPlayNote: aNote
+	"Plays aNote with a defined intensity : sends a noteOn message and then a noteOff message."
 	| instance message |
 	instance := PortMidiLibrary uniqueInstance.
 	message := self createNoteOnFor: aNote andVelocity: 16r40.
