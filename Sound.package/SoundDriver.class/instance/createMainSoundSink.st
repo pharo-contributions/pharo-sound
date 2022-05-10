@@ -1,0 +1,3 @@
+accessing
+createMainSoundSink
+	^ self createNullSoundSink

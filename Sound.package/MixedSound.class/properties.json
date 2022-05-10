@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "AbstractSound",
+	"category" : "Sound-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sounds",
+		"leftVols",
+		"rightVols",
+		"soundDone"
+	],
+	"name" : "MixedSound",
+	"type" : "normal"
+}

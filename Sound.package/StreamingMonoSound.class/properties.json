@@ -1,0 +1,24 @@
+{
+	"commentStamp" : "",
+	"super" : "AbstractSound",
+	"category" : "Sound-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"stream",
+		"volume",
+		"repeat",
+		"headerStart",
+		"audioDataStart",
+		"streamSamplingRate",
+		"totalSamples",
+		"codec",
+		"mixer",
+		"leftoverSamples",
+		"lastBufferMSecs",
+		"mutex"
+	],
+	"name" : "StreamingMonoSound",
+	"type" : "normal"
+}

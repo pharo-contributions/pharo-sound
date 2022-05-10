@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "PianoKeyboardMorph",
+	"category" : "SoundMorphicUserInterface",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"midiPort",
+		"channel",
+		"velocity"
+	],
+	"name" : "MIDIPianoKeyboardMorph",
+	"type" : "normal"
+}

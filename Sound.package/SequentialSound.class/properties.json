@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "AbstractSound",
+	"category" : "Sound-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sounds",
+		"currentIndex"
+	],
+	"name" : "SequentialSound",
+	"type" : "normal"
+}

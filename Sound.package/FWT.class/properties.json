@@ -1,0 +1,23 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Sound-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"alpha",
+		"beta",
+		"coeffs",
+		"h",
+		"g",
+		"hTilde",
+		"gTilde",
+		"samples",
+		"nSamples",
+		"nLevels",
+		"transform"
+	],
+	"name" : "FWT",
+	"type" : "normal"
+}

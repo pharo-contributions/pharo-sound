@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "AlignmentMorph",
+	"category" : "SoundMorphicUserInterface",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"midiPortNumber",
+		"midiSynth",
+		"instrumentSelector"
+	],
+	"name" : "MidiInputMorph",
+	"type" : "normal"
+}

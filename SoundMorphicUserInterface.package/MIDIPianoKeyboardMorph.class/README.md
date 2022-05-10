@@ -1,0 +1,1 @@
+I implement a piano keyboard that can be played with the mouse. I can output to a MIDI port, if MIDI is supported on this platform. I can also spawn controllers for other MIDI parameters, such as pitch bend.

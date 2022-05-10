@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "AbstractSound",
+	"category" : "Sound-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sound",
+		"tapDelays",
+		"tapGains",
+		"tapCount",
+		"bufferSize",
+		"bufferIndex",
+		"leftBuffer",
+		"rightBuffer"
+	],
+	"name" : "ReverbSound",
+	"type" : "normal"
+}

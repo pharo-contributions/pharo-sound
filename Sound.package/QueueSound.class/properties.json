@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "AbstractSound",
+	"category" : "Sound-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"startTime",
+		"sounds",
+		"currentSound",
+		"done"
+	],
+	"name" : "QueueSound",
+	"type" : "normal"
+}

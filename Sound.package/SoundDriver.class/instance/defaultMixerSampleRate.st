@@ -1,0 +1,3 @@
+accessing
+defaultMixerSampleRate
+	^ self class defaultMixerSampleRate

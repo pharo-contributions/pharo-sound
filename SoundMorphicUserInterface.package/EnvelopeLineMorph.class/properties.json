@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "PolygonMorph",
+	"category" : "SoundMorphicUserInterface",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"editor"
+	],
+	"name" : "EnvelopeLineMorph",
+	"type" : "normal"
+}

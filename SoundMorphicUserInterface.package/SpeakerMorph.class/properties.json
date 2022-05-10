@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Morph",
+	"category" : "SoundMorphicUserInterface",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bufferSize",
+		"buffer",
+		"lastConePosition",
+		"sound"
+	],
+	"name" : "SpeakerMorph",
+	"type" : "normal"
+}

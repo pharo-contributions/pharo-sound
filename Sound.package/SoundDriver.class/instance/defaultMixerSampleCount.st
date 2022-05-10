@@ -1,0 +1,3 @@
+accessing
+defaultMixerSampleCount
+	^ self class defaultMixerSampleCount

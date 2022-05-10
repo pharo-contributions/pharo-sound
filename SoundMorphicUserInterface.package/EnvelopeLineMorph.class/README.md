@@ -1,0 +1,1 @@
+I'm a special polgon used to draw line in the envelop editor morph.

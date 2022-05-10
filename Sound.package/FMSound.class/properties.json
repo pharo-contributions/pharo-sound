@@ -1,0 +1,25 @@
+{
+	"commentStamp" : "",
+	"super" : "AbstractSound",
+	"category" : "Sound-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"SineTable"
+	],
+	"instvars" : [
+		"initialCount",
+		"count",
+		"waveTable",
+		"scaledWaveTableSize",
+		"scaledIndex",
+		"scaledIndexIncr",
+		"modulation",
+		"multiplier",
+		"normalizedModulation",
+		"scaledOffsetIndex",
+		"scaledOffsetIndexIncr"
+	],
+	"name" : "FMSound",
+	"type" : "normal"
+}

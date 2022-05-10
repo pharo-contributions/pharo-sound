@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Envelope",
+	"category" : "Sound-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"rand",
+		"lowLimit",
+		"highLimit",
+		"delta"
+	],
+	"name" : "RandomEnvelope",
+	"type" : "normal"
+}

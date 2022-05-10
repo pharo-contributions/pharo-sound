@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Slider",
+	"category" : "SoundMorphicUserInterface",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"target",
+		"arguments",
+		"minVal",
+		"maxVal",
+		"truncate"
+	],
+	"name" : "SimpleSliderMorph",
+	"type" : "normal"
+}

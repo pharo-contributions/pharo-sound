@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "SoundCodec",
+	"category" : "Sound-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"encodeState",
+		"decodeState"
+	],
+	"name" : "GSMCodec",
+	"type" : "normal"
+}
