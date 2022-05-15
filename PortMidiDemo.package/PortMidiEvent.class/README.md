@@ -1,0 +1,1 @@
+I represent the PmEvent structure of the external C library PortMidi.

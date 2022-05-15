@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "PortMidiDemo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"instance",
+		"input",
+		"output"
+	],
+	"name" : "PortMidiLibraryTest",
+	"type" : "normal"
+}

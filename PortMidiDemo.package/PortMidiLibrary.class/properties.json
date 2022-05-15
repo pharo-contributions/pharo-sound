@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "AntoineDelaby 4/25/2022 11:33",
+	"super" : "FFILibrary",
+	"category" : "PortMidiDemo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PortMidiLibrary",
+	"type" : "normal"
+}
