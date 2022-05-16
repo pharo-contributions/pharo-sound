@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Envelope",
+	"category" : "Sound-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"currentVol",
+		"targetVol",
+		"mSecsForChange"
+	],
+	"name" : "VolumeEnvelope",
+	"type" : "normal"
+}

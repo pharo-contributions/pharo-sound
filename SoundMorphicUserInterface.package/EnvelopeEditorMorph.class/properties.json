@@ -1,0 +1,28 @@
+{
+	"commentStamp" : "",
+	"super" : "BorderedMorph",
+	"category" : "SoundMorphicUserInterface",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sound",
+		"soundName",
+		"envelope",
+		"hScale",
+		"vScale",
+		"graphArea",
+		"pixPerTick",
+		"limits",
+		"limitXs",
+		"limitHandles",
+		"line",
+		"prevMouseDown",
+		"sampleDuration",
+		"showAllEnvelopes",
+		"denominator",
+		"keyboard"
+	],
+	"name" : "EnvelopeEditorMorph",
+	"type" : "normal"
+}

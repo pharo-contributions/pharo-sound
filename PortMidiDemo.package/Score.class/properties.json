@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "AntoineDelaby 5/12/2022 10:58",
+	"super" : "Object",
+	"category" : "PortMidiDemo-Source",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"midiOut",
+		"defaultOutput",
+		"tempo",
+		"melody"
+	],
+	"name" : "Score",
+	"type" : "normal"
+}

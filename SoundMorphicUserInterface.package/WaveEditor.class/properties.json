@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "AlignmentMorph",
+	"category" : "SoundMorphicUserInterface",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"graph",
+		"samplingRate",
+		"perceivedFrequency",
+		"loopEnd",
+		"loopLength",
+		"loopCycles",
+		"possibleLoopStarts",
+		"keyboard"
+	],
+	"name" : "WaveEditor",
+	"type" : "normal"
+}

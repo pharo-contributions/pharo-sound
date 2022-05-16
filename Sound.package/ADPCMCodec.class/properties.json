@@ -1,0 +1,28 @@
+{
+	"commentStamp" : "",
+	"super" : "SoundCodec",
+	"category" : "Sound-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"predicted",
+		"index",
+		"deltaSignMask",
+		"deltaValueMask",
+		"deltaValueHighBit",
+		"frameSizeMask",
+		"currentByte",
+		"bitPosition",
+		"byteIndex",
+		"encodedBytes",
+		"samples",
+		"rightSamples",
+		"sampleIndex",
+		"bitsPerSample",
+		"stepSizeTable",
+		"indexTable"
+	],
+	"name" : "ADPCMCodec",
+	"type" : "normal"
+}

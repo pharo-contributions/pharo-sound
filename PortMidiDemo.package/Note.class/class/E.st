@@ -1,0 +1,3 @@
+accessing
+E
+	^ NoteE new

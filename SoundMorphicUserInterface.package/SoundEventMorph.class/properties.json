@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "AbstractMediaEventMorph",
+	"category" : "SoundMorphicUserInterface",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sound"
+	],
+	"name" : "SoundEventMorph",
+	"type" : "normal"
+}

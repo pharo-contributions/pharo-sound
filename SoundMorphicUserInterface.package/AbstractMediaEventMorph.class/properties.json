@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BorderedMorph",
+	"category" : "SoundMorphicUserInterface",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"startTimeInScore",
+		"endTimeInScore"
+	],
+	"name" : "AbstractMediaEventMorph",
+	"type" : "normal"
+}

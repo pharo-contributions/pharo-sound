@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "",
+	"super" : "BorderedMorph",
+	"category" : "SoundMorphicUserInterface",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"caption",
+		"start",
+		"stop",
+		"minorTick",
+		"minorTickLength",
+		"majorTick",
+		"majorTickLength",
+		"tickPrintBlock",
+		"labelsAbove",
+		"captionAbove"
+	],
+	"name" : "ScaleMorph",
+	"type" : "normal"
+}

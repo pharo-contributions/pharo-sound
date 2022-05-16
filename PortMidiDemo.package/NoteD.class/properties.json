@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "AntoineDelaby 5/12/2022 11:47",
+	"super" : "Note",
+	"category" : "PortMidiDemo-Source",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "NoteD",
+	"type" : "normal"
+}

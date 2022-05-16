@@ -1,0 +1,30 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Sound-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"CanRecordWhilePlaying",
+		"RecorderActive"
+	],
+	"instvars" : [
+		"stereo",
+		"samplingRate",
+		"recordLevel",
+		"recordedBuffers",
+		"recordedSound",
+		"recordProcess",
+		"bufferAvailableSema",
+		"paused",
+		"meteringBuffer",
+		"meterLevel",
+		"soundPlaying",
+		"currentBuffer",
+		"nextIndex",
+		"codec",
+		"desiredSampleRate"
+	],
+	"name" : "SoundRecorder",
+	"type" : "normal"
+}

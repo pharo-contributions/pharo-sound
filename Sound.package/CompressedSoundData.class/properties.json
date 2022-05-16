@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Sound-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"channels",
+		"soundClassName",
+		"codecName",
+		"loopEnd",
+		"loopLength",
+		"perceivedPitch",
+		"samplingRate",
+		"gain",
+		"firstSample",
+		"cachedSound"
+	],
+	"name" : "CompressedSoundData",
+	"type" : "normal"
+}

@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "StringMorph",
+	"category" : "SoundMorphicUserInterface",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"target",
+		"actionSelector",
+		"arguments",
+		"getItemsSelector",
+		"getItemsArgs",
+		"choiceArgs"
+	],
+	"name" : "PopUpChoiceMorph",
+	"type" : "normal"
+}

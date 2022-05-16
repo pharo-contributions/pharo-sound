@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "AlignmentMorph",
+	"category" : "SoundMorphicUserInterface",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"soundInput",
+		"statusLight",
+		"levelMeter",
+		"graphMorph",
+		"sonogramMorph",
+		"fft",
+		"displayType"
+	],
+	"name" : "SpectrumAnalyzerMorph",
+	"type" : "normal"
+}

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BorderedMorph",
+	"category" : "SoundMorphicUserInterface",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"controlPanel"
+	],
+	"name" : "SoundSequencerMorph",
+	"type" : "normal"
+}

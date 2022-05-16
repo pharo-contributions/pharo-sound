@@ -1,0 +1,3 @@
+accessing
+F
+	^ NoteF new

@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "SoundCodec",
+	"category" : "Sound-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"fwt",
+		"samplesPerFrame",
+		"nLevels",
+		"alpha",
+		"beta"
+	],
+	"name" : "WaveletCodec",
+	"type" : "normal"
+}

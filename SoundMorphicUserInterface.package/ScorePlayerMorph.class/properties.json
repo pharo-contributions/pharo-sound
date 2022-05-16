@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "AlignmentMorph",
+	"category" : "SoundMorphicUserInterface",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"LastMIDIPort"
+	],
+	"instvars" : [
+		"scorePlayer",
+		"trackInstNames",
+		"instrumentSelector",
+		"scrollSlider"
+	],
+	"name" : "ScorePlayerMorph",
+	"type" : "normal"
+}

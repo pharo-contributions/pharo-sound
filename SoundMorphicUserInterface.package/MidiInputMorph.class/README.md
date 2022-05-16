@@ -1,0 +1,1 @@
+I am the user interface for a simple software MIDI synthesizer that is driven by external MIDI input. I come with controls for a single MIDI channel (channel 1), but allow channel controls for additional MIDI channels to be added by the user. The volume, pan, and instrument of each channel can be controlled independently.

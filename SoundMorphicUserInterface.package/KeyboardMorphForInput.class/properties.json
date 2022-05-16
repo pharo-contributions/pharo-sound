@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "PianoKeyboardMorph",
+	"category" : "SoundMorphicUserInterface",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"pianoRoll",
+		"duration",
+		"durationModifier",
+		"articulation",
+		"buildingChord",
+		"insertMode",
+		"prevSelection",
+		"startOfNextNote"
+	],
+	"name" : "KeyboardMorphForInput",
+	"type" : "normal"
+}

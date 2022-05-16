@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SoundSystem",
+	"category" : "Sound-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BaseSoundSystem",
+	"type" : "normal"
+}

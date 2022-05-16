@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "",
+	"super" : "BorderedMorph",
+	"category" : "SoundMorphicUserInterface",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"whiteKeyColor",
+		"blackKeyColor",
+		"playingKeyColor",
+		"nOctaves",
+		"target",
+		"noteOnSelector",
+		"noteOffSelector",
+		"soundPrototype",
+		"soundPlaying"
+	],
+	"name" : "PianoKeyboardMorph",
+	"type" : "normal"
+}

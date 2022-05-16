@@ -1,0 +1,4 @@
+initialization
+closeMIDIPort
+
+	midiPort := nil.

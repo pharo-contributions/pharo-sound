@@ -1,0 +1,31 @@
+{
+	"commentStamp" : "",
+	"super" : "AbstractSound",
+	"category" : "Sound-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"FloatLoopIndexScaleFactor",
+		"LoopIndexFractionMask",
+		"LoopIndexScaleFactor"
+	],
+	"instvars" : [
+		"initialCount",
+		"count",
+		"releaseCount",
+		"sampleCountForRelease",
+		"leftSamples",
+		"rightSamples",
+		"originalSamplingRate",
+		"perceivedPitch",
+		"gain",
+		"firstSample",
+		"lastSample",
+		"loopEnd",
+		"scaledLoopLength",
+		"scaledIndex",
+		"scaledIndexIncr"
+	],
+	"name" : "LoopedSampledSound",
+	"type" : "normal"
+}

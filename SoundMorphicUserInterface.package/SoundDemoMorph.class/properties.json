@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "AlignmentMorph",
+	"category" : "SoundMorphicUserInterface",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"soundColumn"
+	],
+	"name" : "SoundDemoMorph",
+	"type" : "normal"
+}

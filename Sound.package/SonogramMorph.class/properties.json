@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "ImageMorph",
+	"category" : "Sound-Experimental",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"lastX",
+		"scrollDelta",
+		"columnForm",
+		"minVal",
+		"maxVal",
+		"pixValMap"
+	],
+	"name" : "SonogramMorph",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+accessing
+A
+	^ NoteA new

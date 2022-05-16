@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PackageManifest",
+	"category" : "Sound-Manifest",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ManifestSound",
+	"type" : "normal"
+}

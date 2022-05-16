@@ -1,0 +1,29 @@
+{
+	"commentStamp" : "",
+	"super" : "AbstractSound",
+	"category" : "Sound-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"CoffeeCupClink",
+		"DefaultSampleTable",
+		"IncrementFractionBits",
+		"IncrementScaleFactor",
+		"NominalSamplePitch",
+		"ScaledIndexOverflow",
+		"SoundLibrary"
+	],
+	"instvars" : [
+		"initialCount",
+		"count",
+		"samples",
+		"originalSamplingRate",
+		"samplesSize",
+		"scaledIndex",
+		"indexHighBits",
+		"scaledIncrement",
+		"scaledInitialIndex"
+	],
+	"name" : "SampledSound",
+	"type" : "normal"
+}

@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "",
+	"super" : "BorderedMorph",
+	"category" : "SoundMorphicUserInterface",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"data",
+		"dataColor",
+		"cursor",
+		"cursorColor",
+		"cursorColorAtZeroCrossings",
+		"startIndex",
+		"minVal",
+		"maxVal",
+		"cachedForm",
+		"hasChanged"
+	],
+	"name" : "GraphMorph",
+	"type" : "normal"
+}

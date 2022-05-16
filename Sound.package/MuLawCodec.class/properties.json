@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SoundCodec",
+	"category" : "Sound-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"DecodingTable"
+	],
+	"instvars" : [ ],
+	"name" : "MuLawCodec",
+	"type" : "normal"
+}

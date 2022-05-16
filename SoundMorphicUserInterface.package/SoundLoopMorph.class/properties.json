@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "BorderedMorph",
+	"category" : "SoundMorphicUserInterface",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"samplesUntilNextControl",
+		"seqSound",
+		"cursor",
+		"controlIndex"
+	],
+	"name" : "SoundLoopMorph",
+	"type" : "normal"
+}

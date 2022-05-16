@@ -1,0 +1,3 @@
+accessing
+samplingRate
+	^ samplingRate

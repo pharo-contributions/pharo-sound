@@ -1,0 +1,26 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Sound-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"in",
+		"fileType",
+		"channelCount",
+		"frameCount",
+		"bitsPerSample",
+		"samplingRate",
+		"channelData",
+		"channelDataOffset",
+		"markers",
+		"pitch",
+		"gain",
+		"isLooped",
+		"skipDataChunk",
+		"mergeIfStereo"
+	],
+	"name" : "AIFFFileReader",
+	"type" : "normal"
+}

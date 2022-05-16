@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "AlignmentMorph",
+	"category" : "SoundMorphicUserInterface",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"recorder",
+		"recordingStatusLight",
+		"recordMeter"
+	],
+	"name" : "RecordingControlsMorph",
+	"type" : "normal"
+}
