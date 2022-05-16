@@ -1,0 +1,3 @@
+accessing
+C
+	^ NoteC new

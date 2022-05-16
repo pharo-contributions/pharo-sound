@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "AntoineDelaby 4/25/2022 11:33",
 	"super" : "FFILibrary",
-	"category" : "PortMidiDemo",
+	"category" : "PortMidiDemo-Source",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

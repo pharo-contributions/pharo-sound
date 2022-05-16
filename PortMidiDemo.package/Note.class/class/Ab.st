@@ -1,0 +1,3 @@
+accessing
+Ab
+	^ NoteAFlat new

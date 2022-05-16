@@ -1,0 +1,3 @@
+accessing
+D
+	^ NoteD new

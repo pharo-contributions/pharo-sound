@@ -1,0 +1,3 @@
+accessing
+B
+	^ NoteB new

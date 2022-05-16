@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "AntoineDelaby 5/2/2022 15:21",
 	"super" : "Object",
-	"category" : "PortMidiDemo",
+	"category" : "PortMidiDemo-Source",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

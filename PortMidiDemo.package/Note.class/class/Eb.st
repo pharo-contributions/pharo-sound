@@ -1,0 +1,3 @@
+accessing
+Eb
+	^ NoteEFlat new
