@@ -6,3 +6,5 @@ initialize
 	self defaultOutput: instance getDefaultOutputDeviceID.
 	self melody: OrderedCollection new.
 	self midiOut: (instance createNewPointerForStreamWithType: 'void**').
+	self timerCounter: 0.
+	self currentNoteIndex: 1.

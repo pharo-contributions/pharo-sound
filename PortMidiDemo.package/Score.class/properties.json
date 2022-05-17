@@ -9,7 +9,9 @@
 		"midiOut",
 		"defaultOutput",
 		"tempo",
-		"melody"
+		"melody",
+		"timerCounter",
+		"currentNoteIndex"
 	],
 	"name" : "Score",
 	"type" : "normal"
