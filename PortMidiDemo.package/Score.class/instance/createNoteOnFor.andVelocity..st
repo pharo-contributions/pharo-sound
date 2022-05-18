@@ -1,4 +1,4 @@
 noteManagement
 createNoteOnFor: aNote andVelocity: data2
 	"Generates a noteOn message for aNote and note intencity data2"
-	^ PortMidiLibrary uniqueInstance portMidiCreateMessageWithStatus: 16r90 withFirstData: aNote note noteValue andSecondData2: data2.
+	^ PortMidiLibrary uniqueInstance portMidiCreateMessageWithStatus: 16r90 withFirstData: aNote noteRealValue andSecondData2: data2.

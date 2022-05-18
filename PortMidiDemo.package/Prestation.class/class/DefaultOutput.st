@@ -1,3 +1,3 @@
 accessing
-DefaultOutput
+defaultOutput
 	^ DefaultOutput

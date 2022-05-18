@@ -1,4 +1,4 @@
 tests
 testDefaultTempo
-	self deny: Prestation DefaultTempo equals: nil.
-	self assert: Prestation DefaultTempo equals: 60
+	self deny: Prestation defaultTempo equals: nil.
+	self assert: Prestation defaultTempo equals: 60

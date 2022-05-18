@@ -1,3 +1,3 @@
 accessing
-DefaultOctave
-	^ 5
+defaultOctave
+	^ DefaultOctave

@@ -1,4 +1,4 @@
 tests
 testDefaultOutput
-	self deny: Prestation DefaultOutput equals: nil.
-	self deny: Prestation DefaultOutput equals: -1
+	self deny: Prestation defaultOutput equals: nil.
+	self deny: Prestation defaultOutput equals: -1

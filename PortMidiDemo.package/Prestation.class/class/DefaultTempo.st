@@ -1,3 +1,3 @@
 accessing
-DefaultTempo
+defaultTempo
 	^ DefaultTempo

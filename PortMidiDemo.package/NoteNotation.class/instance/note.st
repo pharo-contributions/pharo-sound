@@ -1,3 +1,3 @@
 accessing
 note
-	^ note noteValue: (12 * (self octave - 1) + note noteValue)
+	^ note
