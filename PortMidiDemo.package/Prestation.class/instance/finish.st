@@ -1,0 +1,3 @@
+initialization
+finish
+	PortMidiLibrary uniqueInstance portMidiTerminate
