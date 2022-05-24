@@ -1,3 +1,0 @@
-accessing
-scores
-	^ scores

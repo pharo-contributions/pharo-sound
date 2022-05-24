@@ -1,4 +1,5 @@
-Class: Score
-                                                                                                    
-I represent a score with a tempo, a MIDIOutput Stream on which MIDI messages will be sent, a defaultOutputDeviceID in case no specific output device would be given, and a melody which is a collection of Notes that are "written on the score".
+I represent a music score with multiple tracks played by several instruments.
 
+I have a tempo which will be followed by the MIDIScorePlayer.
+I have an OrderedCollection of Scores that contains each score that will be played by the MIDIScoreplayer.
+Each score is played on a MIDI channel which means that I can play at most 16 scores.

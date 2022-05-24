@@ -1,3 +1,0 @@
-accessing
-tempo
-	^ tempo

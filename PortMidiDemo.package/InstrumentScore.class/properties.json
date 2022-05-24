@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "AntoineDelaby 5/23/2022 14:33",
+	"super" : "Object",
+	"category" : "PortMidiDemo-Source",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"track",
+		"instrument",
+		"positionInScore",
+		"timerCounter"
+	],
+	"name" : "InstrumentScore",
+	"type" : "normal"
+}
