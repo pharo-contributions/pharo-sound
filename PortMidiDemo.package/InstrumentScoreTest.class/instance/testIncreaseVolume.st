@@ -12,6 +12,6 @@ testIncreaseVolume
 		 ].
 	aTrack increaseVolume.
 	aTrack track do: [ :each |
-			self assert: each velocity equals: 74
+			self assert: each velocity equals: MIDINote defaultVelocity + 10
 		 ].
 	

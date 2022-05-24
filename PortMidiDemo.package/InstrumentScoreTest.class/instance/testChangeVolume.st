@@ -1,5 +1,5 @@
 tests
-testModifyVolume
+testChangeVolume
 	| aTrack notes |
 	aTrack := InstrumentScore new.
 	notes := OrderedCollection new.
