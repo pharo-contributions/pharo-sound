@@ -1,12 +1,12 @@
 accessing
 turnOffNoteMIDI
 
-	| aPartition |
+	| aScorePlayer |
 	
 	soundPlaying notNil ifTrue: [
 		soundPlaying isInteger ifTrue: [
-			aPartition := Partition new tempo: 60.
-			aPartition openMidiOutWithDevice: aPartition defaultOutput.
-			aPartition nextPlayNote: (Note new noteValue: soundPlaying).]].
+			aScorePlayer := MIDIScorePlayer new.
+			aScorePlayer openMidiOutWithDevice: 3.
+			aScorePlayer nextPlayNoteOffValue: soundPlaying.]].
 	soundPlaying := nil.
-	aPartition closeMidiOut
+	aScorePlayer closeMidiOut

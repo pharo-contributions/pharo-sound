@@ -1,10 +1,10 @@
 accessing
 turnOnNoteMIDI: midiKey
 	
-	| aPartition |
+	| aScorePlayer |
 	
-	aPartition := Partition new tempo: 60.
-	aPartition openMidiOutWithDevice: aPartition defaultOutput.
-	aPartition nextPlayNote: (Note new noteValue: midiKey).
+	aScorePlayer := MIDIScorePlayer new.
+	aScorePlayer openMidiOutWithDevice: 3.
+	aScorePlayer nextPlayNoteOnValue: midiKey.
 	soundPlaying := midiKey.
-	aPartition closeMidiOut
+	aScorePlayer closeMidiOut

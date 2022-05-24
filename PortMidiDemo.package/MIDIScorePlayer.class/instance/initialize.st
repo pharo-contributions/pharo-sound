@@ -4,4 +4,5 @@ initialize
 	| instance |
 	instance := PortMidiLibrary uniqueInstance.
 	self midiOut: (instance createNewPointerForStreamWithType: 'void**').
+	self scoreVolume: self class defaultVolume.
 	instance portMidiInitialize.
