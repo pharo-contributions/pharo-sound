@@ -1,5 +1,5 @@
 tests
-testAddNoteToMelody
+testAddNoteToTrack
 	| aNote aScore |
 	aNote := MIDINote new note: NoteF new;
 		duration: 1000.

@@ -5,7 +5,7 @@ play
 	instance := PortMidiLibrary uniqueInstance.
 	
 	instance start.
-	[ instance getTime <= 5000 ] whileTrue: [ 
+	[ instance getTime < 5000 ] whileTrue: [ 
 			self score tracks do: [ :track |
 					track muted ifFalse: [ 
 							self playCurrentNote: track

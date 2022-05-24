@@ -6,12 +6,14 @@
 	"pools" : [ ],
 	"classvars" : [
 		"DefaultDuration",
-		"DefaultOctave"
+		"DefaultOctave",
+		"DefaultVelocity"
 	],
 	"instvars" : [
 		"note",
 		"octave",
-		"duration"
+		"duration",
+		"velocity"
 	],
 	"name" : "MIDINote",
 	"type" : "normal"

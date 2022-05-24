@@ -4,7 +4,9 @@
 	"category" : "PortMidiDemo-Source",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"DefaultVelocity"
+	],
 	"instvars" : [
 		"track",
 		"instrument",
