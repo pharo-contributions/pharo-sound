@@ -7,7 +7,9 @@ play
 	instance start.
 	[ instance getTime <= 5000 ] whileTrue: [ 
 			self score tracks do: [ :track |
-					self playCurrentNote: track
+					track muted ifFalse: [ 
+							self playCurrentNote: track
+						 ]
 				]
 		 ].
 	instance stop

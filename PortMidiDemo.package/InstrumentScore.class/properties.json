@@ -10,7 +10,8 @@
 		"instrument",
 		"positionInScore",
 		"timerCounter",
-		"channel"
+		"channel",
+		"muted"
 	],
 	"name" : "InstrumentScore",
 	"type" : "normal"
