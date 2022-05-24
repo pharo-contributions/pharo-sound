@@ -1,9 +1,11 @@
 adding
 addNewTrackWith: aNoteArray named: aName
 	"Creates a new Score, adds aNoteArray into it and adds this score to the score collection."
-	| aScore |
-	aScore := InstrumentScore new.
+	| aTrack |
+	(self tracks size = 16) ifTrue: [ ^ self ].
+	aTrack := InstrumentScore new.
 	aNoteArray do: [ :note |
-			aScore addNoteToTrack: (MIDINote new note: (Note perform: note); octave: MIDINote defaultOctave; duration: MIDINote defaultDuration )
+			aTrack addNoteToTrack: (MIDINote new note: (Note perform: note); octave: MIDINote defaultOctave; duration: MIDINote defaultDuration )
 		 ].
-	tracks at: aName put: aScore
+	aTrack channel: self tracks size + 1.
+	tracks at: aName put: aTrack

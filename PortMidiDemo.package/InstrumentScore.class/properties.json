@@ -9,7 +9,8 @@
 		"track",
 		"instrument",
 		"positionInScore",
-		"timerCounter"
+		"timerCounter",
+		"channel"
 	],
 	"name" : "InstrumentScore",
 	"type" : "normal"
