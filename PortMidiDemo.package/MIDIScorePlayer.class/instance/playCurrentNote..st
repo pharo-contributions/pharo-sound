@@ -9,6 +9,6 @@ playCurrentNote: aTrack
 		self nextPlayNoteOff: ( aTrack track at: aTrack positionInScore ) onChannel: aTrack channel.
 		aTrack positionInScore: aTrack positionInScore + 1.
 	 ].
-	( aTrack positionInScore > aTrack track size ) ifTrue: [ ^ self ].
+	( aTrack positionInScore > aTrack track size ) ifTrue: [ aTrack resetTrack ].
 	aTrack timerCounter: aTrack timerCounter + ( aTrack track at: aTrack positionInScore ) duration.
 	self nextPlayNoteOn: ( aTrack track at: aTrack positionInScore ) onChannel: aTrack channel.
