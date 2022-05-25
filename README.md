@@ -29,6 +29,14 @@ PortMidiLibrary >> portMidiInitialize
 
 #### Repository packages
 
+##### portmidi
+
+This folder is the PortMidi C library repository. We added one example in this repository so that it is easier to use.
+
+##### portmidiBuild
+
+This folder contains the build of the PortMidi C library. It contains a reference file to the library that is important to be able to load the PortMidiDemo package in Pharo.
+
 ##### PortMidiDemo
 
 This package contains the source code we wrote for MIDI implementation in Pharo. There are several tags in this package :
@@ -48,3 +56,8 @@ To use this piano keyboard morph, you can execute the following code in a Pharo 
 ```smalltalk
 MIDIPianoKeyboardMorph new openInWindow
 ```
+
+##### utils
+
+This folder contains files that are apart from the project and useful/necessary.
+For now, it contains the Slider class file that is important to be able to load the Sound package in Pharo.
