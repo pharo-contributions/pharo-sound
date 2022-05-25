@@ -1,0 +1,896 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7E7A5C809A2440B8AC853484 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EBF54E495BBB4B2694437EBA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				AC3F19F55363FBEF2337AE56 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				B3105DB937A548C7AB9C38FC /* PBXTargetDependency */,
+				DA3890E0F3994C85A15197C7 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		BB477AD6E83E49DA8F650D53 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 74B5CED8DA734BEFBBEF7467 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				9BC23F8C8AEC4EF9BADD5953 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		E9BDCF93A9A640D990F2FEE9 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7DB927621501421785E3F1C5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				290440D11CFF966A813670BB /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00BAE75A798E4AAD83A94ED3 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_mac/pmmacosxcm.c */ = {isa = PBXBuildFile; fileRef = EC91A51B5D7C4EDF8C922BE4 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_mac/pmmacosxcm.c */; };
+		1CE00CD720C2424CAE100C39 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_common/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B183EE6A73DC4704A56AC4A2 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_common/CMakeLists.txt */; };
+		457857A1EDA74EFBA6E70004 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_mac/readbinaryplist.c */ = {isa = PBXBuildFile; fileRef = 1FB2B4A663294194A3091D8A /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_mac/readbinaryplist.c */; };
+		4BD14FE4415E49DF9C919BEA /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_common/pmutil.c */ = {isa = PBXBuildFile; fileRef = 4D794A73304245E0B94362B2 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_common/pmutil.c */; };
+		7771D8B0509A4C7EBE4AF65D /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_common/portmidi.c */ = {isa = PBXBuildFile; fileRef = 459B2232986B4841873F02A6 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_common/portmidi.c */; };
+		C2D340F346964897A38A572E /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/porttime/porttime.c */ = {isa = PBXBuildFile; fileRef = 0E99A19C7BB2440584B744B4 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/porttime/porttime.c */; };
+		D733F40D33374C75A6C5A5C9 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_mac/finddefault.c */ = {isa = PBXBuildFile; fileRef = BD6A65588AB1401FBDD4DEEE /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_mac/finddefault.c */; };
+		D9D36AA6EC2F4D2581F32FD9 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_mac/pmmac.c */ = {isa = PBXBuildFile; fileRef = 66CD419470BC493FBA672624 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_mac/pmmac.c */; };
+		DD0B36F6C1DB4E1D80DEE259 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/porttime/ptmacosx_mach.c */ = {isa = PBXBuildFile; fileRef = 3B2DD7601EAC4E3BB2E9820B /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/porttime/ptmacosx_mach.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		9867EF0D119E4895B97E2271 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		A2773A4FEE36438AAE230993 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		BA684F7BC0FF4651B0FA497E /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		F11DE2AD48F54681BDB3F31C /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		630560B2CA2F4DE6A6D2D980 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB93C44FB60F4E45A855C1BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9BDCF93A9A640D990F2FEE9;
+			remoteInfo = ZERO_CHECK;
+		};
+		6A4CBF4F5212440C96B2A94D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB93C44FB60F4E45A855C1BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E7A5C809A2440B8AC853484;
+			remoteInfo = ALL_BUILD;
+		};
+		D70398FD14A248C08D00F34B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB93C44FB60F4E45A855C1BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBA9C6CE7BBB43BCB0416BA9;
+			remoteInfo = portmidi;
+		};
+		EE60D6A341F747E58F4FDCD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB93C44FB60F4E45A855C1BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9BDCF93A9A640D990F2FEE9;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E99A19C7BB2440584B744B4 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/porttime/porttime.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = porttime.c; path = porttime/porttime.c; sourceTree = SOURCE_ROOT; };
+		1FB2B4A663294194A3091D8A /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_mac/readbinaryplist.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = readbinaryplist.c; path = pm_mac/readbinaryplist.c; sourceTree = SOURCE_ROOT; };
+		3B2DD7601EAC4E3BB2E9820B /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/porttime/ptmacosx_mach.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ptmacosx_mach.c; path = porttime/ptmacosx_mach.c; sourceTree = SOURCE_ROOT; };
+		459B2232986B4841873F02A6 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_common/portmidi.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = portmidi.c; path = pm_common/portmidi.c; sourceTree = SOURCE_ROOT; };
+		4D794A73304245E0B94362B2 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_common/pmutil.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pmutil.c; path = pm_common/pmutil.c; sourceTree = SOURCE_ROOT; };
+		66CD419470BC493FBA672624 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_mac/pmmac.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pmmac.c; path = pm_mac/pmmac.c; sourceTree = SOURCE_ROOT; };
+		B183EE6A73DC4704A56AC4A2 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_common/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = pm_common/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BD6A65588AB1401FBDD4DEEE /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_mac/finddefault.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = finddefault.c; path = pm_mac/finddefault.c; sourceTree = SOURCE_ROOT; };
+		D592A06FEA134A04B5CE0339 /* portmidi */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libportmidi.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D929EBB8A467423F96872E4D /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EC91A51B5D7C4EDF8C922BE4 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_mac/pmmacosxcm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pmmacosxcm.c; path = pm_mac/pmmacosxcm.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02243B8F66FD41E3B0C21838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09E8EE95F5C9424582D45AB4 /* portmidi */ = {
+			isa = PBXGroup;
+			children = (
+				EE5D31BD8DCC461BA1AB9E58 /* Source Files */,
+				B183EE6A73DC4704A56AC4A2 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_common/CMakeLists.txt */,
+			);
+			name = portmidi;
+			sourceTree = "<group>";
+		};
+		25C8461BC2534E4DA32F905C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BB9B7D8EEBD415EA818DB62 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				A906F036A7A14F1EA9997CA5 /* CMake Rules */,
+				D929EBB8A467423F96872E4D /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		67F3C28BA7924404B6A0B715 = {
+			isa = PBXGroup;
+			children = (
+				2BB9B7D8EEBD415EA818DB62 /* ALL_BUILD */,
+				09E8EE95F5C9424582D45AB4 /* portmidi */,
+				95045429DA33432C8AF32DD0 /* Products */,
+				25C8461BC2534E4DA32F905C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95045429DA33432C8AF32DD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D592A06FEA134A04B5CE0339 /* portmidi */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A906F036A7A14F1EA9997CA5 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		EE5D31BD8DCC461BA1AB9E58 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D794A73304245E0B94362B2 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_common/pmutil.c */,
+				459B2232986B4841873F02A6 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_common/portmidi.c */,
+				BD6A65588AB1401FBDD4DEEE /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_mac/finddefault.c */,
+				66CD419470BC493FBA672624 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_mac/pmmac.c */,
+				EC91A51B5D7C4EDF8C922BE4 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_mac/pmmacosxcm.c */,
+				1FB2B4A663294194A3091D8A /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_mac/readbinaryplist.c */,
+				0E99A19C7BB2440584B744B4 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/porttime/porttime.c */,
+				3B2DD7601EAC4E3BB2E9820B /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/porttime/ptmacosx_mach.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBA9C6CE7BBB43BCB0416BA9 /* portmidi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED649092BE57462F8B4795BE /* Build configuration list for PBXNativeTarget "portmidi" */;
+			buildPhases = (
+				4444C339FBEE474C94D923EC /* Sources */,
+				02243B8F66FD41E3B0C21838 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				002AC202C1CF421B8DF9AE91 /* PBXTargetDependency */,
+			);
+			name = portmidi;
+			productName = portmidi;
+			productReference = D592A06FEA134A04B5CE0339 /* portmidi */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB93C44FB60F4E45A855C1BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1330;
+			};
+			buildConfigurationList = A73AC166F549409C9B65D97F /* Build configuration list for PBXProject "portmidi" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				F11DE2AD48F54681BDB3F31C /* Debug */,
+				BA684F7BC0FF4651B0FA497E /* Release */,
+				9867EF0D119E4895B97E2271 /* MinSizeRel */,
+				A2773A4FEE36438AAE230993 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 67F3C28BA7924404B6A0B715;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				7E7A5C809A2440B8AC853484 /* ALL_BUILD */,
+				E9BDCF93A9A640D990F2FEE9 /* ZERO_CHECK */,
+				BB477AD6E83E49DA8F650D53 /* install */,
+				FBA9C6CE7BBB43BCB0416BA9 /* portmidi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		290440D11CFF966A813670BB /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi
+  make -f /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi
+  make -f /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi
+  make -f /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi
+  make -f /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		AC3F19F55363FBEF2337AE56 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4444C339FBEE474C94D923EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD14FE4415E49DF9C919BEA /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_common/pmutil.c */,
+				7771D8B0509A4C7EBE4AF65D /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_common/portmidi.c */,
+				D733F40D33374C75A6C5A5C9 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_mac/finddefault.c */,
+				D9D36AA6EC2F4D2581F32FD9 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_mac/pmmac.c */,
+				00BAE75A798E4AAD83A94ED3 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_mac/pmmacosxcm.c */,
+				457857A1EDA74EFBA6E70004 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_mac/readbinaryplist.c */,
+				C2D340F346964897A38A572E /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/porttime/porttime.c */,
+				DD0B36F6C1DB4E1D80DEE259 /* /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/porttime/ptmacosx_mach.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		002AC202C1CF421B8DF9AE91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9BDCF93A9A640D990F2FEE9 /* ZERO_CHECK */;
+			targetProxy = EE60D6A341F747E58F4FDCD9 /* PBXContainerItemProxy */;
+		};
+		9BC23F8C8AEC4EF9BADD5953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E7A5C809A2440B8AC853484 /* ALL_BUILD */;
+			targetProxy = 6A4CBF4F5212440C96B2A94D /* PBXContainerItemProxy */;
+		};
+		B3105DB937A548C7AB9C38FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBA9C6CE7BBB43BCB0416BA9 /* portmidi */;
+			targetProxy = D70398FD14A248C08D00F34B /* PBXContainerItemProxy */;
+		};
+		DA3890E0F3994C85A15197C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9BDCF93A9A640D990F2FEE9 /* ZERO_CHECK */;
+			targetProxy = 630560B2CA2F4DE6A6D2D980 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07E57C9F870A4CD69E3E02FF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_common,/Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/porttime,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("-fPIC ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = portmidi;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_common;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0891F4CC7D4E48A688D8ED1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/build;
+			};
+			name = Debug;
+		};
+		16E1E21A53004FCDB586A4DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		27EF3CD2BF484EC7A89A696E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		43037D8AE00D40C6BAF6D17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		50B5ABB0036A4CF6B28712DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		67E88A1886E24FDEBCD4F1C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_common,/Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/porttime,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("-fPIC ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = portmidi;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_common;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		79BBBE8E9BE541E5996758C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_common,/Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/porttime,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("-fPIC ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = portmidi;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_common;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7F8E00C00FFC4E56B6D8239E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		89CD27BB741B4A67B5261839 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_common,/Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/porttime,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("-fPIC ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = portmidi;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_common;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9EEBEB5C4FFD4B659D7BED4C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/build;
+			};
+			name = RelWithDebInfo;
+		};
+		A762EDA457D6470AAAF35822 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AD811AF40183406AB338EBC7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/build;
+			};
+			name = MinSizeRel;
+		};
+		C309D1A255EE490BAB02B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/build;
+			};
+			name = Release;
+		};
+		C7852A49050048DABA196923 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C9286EBF5ECC43EEBDFA8827 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CAD90A22DCE0438E927922AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		ED7170B9CBBB468DBF39B3EC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EDAC1509A7214F6D9D871CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		FCEF2167823142248DF17E80 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74B5CED8DA734BEFBBEF7467 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16E1E21A53004FCDB586A4DC /* Debug */,
+				CAD90A22DCE0438E927922AA /* Release */,
+				FCEF2167823142248DF17E80 /* MinSizeRel */,
+				C7852A49050048DABA196923 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7DB927621501421785E3F1C5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B5ABB0036A4CF6B28712DC /* Debug */,
+				27EF3CD2BF484EC7A89A696E /* Release */,
+				A762EDA457D6470AAAF35822 /* MinSizeRel */,
+				ED7170B9CBBB468DBF39B3EC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A73AC166F549409C9B65D97F /* Build configuration list for PBXProject "portmidi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0891F4CC7D4E48A688D8ED1C /* Debug */,
+				C309D1A255EE490BAB02B192 /* Release */,
+				AD811AF40183406AB338EBC7 /* MinSizeRel */,
+				9EEBEB5C4FFD4B659D7BED4C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EBF54E495BBB4B2694437EBA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAC1509A7214F6D9D871CAC /* Debug */,
+				43037D8AE00D40C6BAF6D17C /* Release */,
+				7F8E00C00FFC4E56B6D8239E /* MinSizeRel */,
+				C9286EBF5ECC43EEBDFA8827 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ED649092BE57462F8B4795BE /* Build configuration list for PBXNativeTarget "portmidi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E88A1886E24FDEBCD4F1C8 /* Debug */,
+				79BBBE8E9BE541E5996758C6 /* Release */,
+				07E57C9F870A4CD69E3E02FF /* MinSizeRel */,
+				89CD27BB741B4A67B5261839 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB93C44FB60F4E45A855C1BC /* Project object */;
+}

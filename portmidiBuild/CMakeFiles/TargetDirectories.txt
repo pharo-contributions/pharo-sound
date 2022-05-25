@@ -1,0 +1,13 @@
+/Users/antoine/Desktop/pharo-sound/portmidiBuild/CMakeFiles/edit_cache.dir
+/Users/antoine/Desktop/pharo-sound/portmidiBuild/CMakeFiles/rebuild_cache.dir
+/Users/antoine/Desktop/pharo-sound/portmidiBuild/CMakeFiles/list_install_components.dir
+/Users/antoine/Desktop/pharo-sound/portmidiBuild/CMakeFiles/install.dir
+/Users/antoine/Desktop/pharo-sound/portmidiBuild/CMakeFiles/install/local.dir
+/Users/antoine/Desktop/pharo-sound/portmidiBuild/CMakeFiles/install/strip.dir
+/Users/antoine/Desktop/pharo-sound/portmidiBuild/pm_common/CMakeFiles/portmidi.dir
+/Users/antoine/Desktop/pharo-sound/portmidiBuild/pm_common/CMakeFiles/edit_cache.dir
+/Users/antoine/Desktop/pharo-sound/portmidiBuild/pm_common/CMakeFiles/rebuild_cache.dir
+/Users/antoine/Desktop/pharo-sound/portmidiBuild/pm_common/CMakeFiles/list_install_components.dir
+/Users/antoine/Desktop/pharo-sound/portmidiBuild/pm_common/CMakeFiles/install.dir
+/Users/antoine/Desktop/pharo-sound/portmidiBuild/pm_common/CMakeFiles/install/local.dir
+/Users/antoine/Desktop/pharo-sound/portmidiBuild/pm_common/CMakeFiles/install/strip.dir

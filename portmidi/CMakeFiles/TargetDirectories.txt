@@ -1,0 +1,5 @@
+/Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/CMakeFiles/install.dir
+/Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/CMakeFiles/ALL_BUILD.dir
+/Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/CMakeFiles/ZERO_CHECK.dir
+/Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_common/CMakeFiles/portmidi.dir
+/Users/antoine/Desktop/PortMidiDemo/PortMidiDemoC/portmidi/pm_common/CMakeFiles/install.dir
