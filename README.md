@@ -27,6 +27,31 @@ PortMidiLibrary >> portMidiInitialize
 	^ self ffiCall: #( int Pm_Initialize() )
 ```
 
+#### Steps to install pharo-sound
+
+##### 1. Clone the repository
+- In your Pharo image, open the iceberg window ( Ctrl/Cmd + O + I )
+- Click on the add button ( top right of the window )
+- Click on "Clone From github.com"
+- In the "Owner name field" tap : pharo-contributions
+- In the "Project name field" tap : pharo-sound
+- For the Protocol, choose HTTP
+- Click on OK
+
+##### 2. Load the PortMidiDemo package ( find the .dylib file of the PortMidi library )
+- In your computer's system explorer, go to your Pharo image folder
+- Go to *pharo-local/iceberg/pharo-contributions/pharo-sound/portmidiBuild/* folder
+- Copy the file named libportmidi.2.0.3.dylib and paste it in your image folder
+- In your Pharo image, double click on the pharo-sound package on the iceberg window
+- Right click on the PortMidiDemo package and select load
+
+##### 3. Load the Sound and SoundMorphicUserInterface packages
+- In the iceberg window, right click on the Sound package and select load
+- Go to your pharo-sound folder in your image folder
+- Go into the utils folder and drag the file Slider.st and drop it in your Pharo image
+- In your Pharo image window, click on "install into the image" on the new little window that appeared
+- Right click on the SoundMorphicUserInterface package and select load
+
 #### Repository packages
 
 ##### portmidi
