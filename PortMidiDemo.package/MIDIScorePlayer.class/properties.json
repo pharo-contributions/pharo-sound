@@ -11,7 +11,9 @@
 	"instvars" : [
 		"midiOut",
 		"scoreVolume",
-		"score"
+		"score",
+		"versions",
+		"currentVersionIndex"
 	],
 	"name" : "MIDIScorePlayer",
 	"type" : "normal"

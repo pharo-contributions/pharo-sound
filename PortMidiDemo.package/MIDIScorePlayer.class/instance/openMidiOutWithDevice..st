@@ -1,8 +1,11 @@
 outputManagement
 openMidiOutWithDevice: aDeviceID
 	"Opens a new MidiOUT Stream with output device id aDeviceID to play notes."
+	| instance |
+	instance := PortMidiLibrary uniqueInstance.
+	self midiOut: (instance createNewPointerForStreamWithType: 'void**').
 	^ (aDeviceID = -1) ifFalse: 
-		[PortMidiLibrary uniqueInstance openOutputForStream: midiOut  
+		[instance openOutputForStream: midiOut  
 															withDevice: aDeviceID 
 															withOutputDriverInfos: nil 
 															withBufferSize: 512 

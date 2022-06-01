@@ -1,4 +1,4 @@
-noteManagement
+playing
 playTrack: aTrack
 	"The score melody is stored in an OrderedCollection that contains a sequence of notes. This method takes one by one each note of the melody of the score to play it and during the right time."
 	aTrack ifNotEmpty: [ 
