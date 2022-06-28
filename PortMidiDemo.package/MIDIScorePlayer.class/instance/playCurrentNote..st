@@ -15,9 +15,15 @@ playCurrentNote: aTrack
 	( aTrack positionInScore > aTrack track size ) ifTrue: [ 
 			aTrack resetTrack.
 			(self score modified) ifTrue: [ 
-					self score: (self versions at: self currentVersionIndex).
-					self score modified: false
+					self score modified: false.
+					self score: (self versions at: (self versions keys at: self currentVersionIndex))
 				 ].
 		 ].
-	aTrack timerCounter: aTrack timerCounter + ( aTrack track at: aTrack positionInScore ) duration.
+	
+	( aTrack timerCounter = 0 ) 
+		  ifTrue: [
+			aTrack timerCounter: PortMidiLibrary uniqueInstance getTime + ( aTrack track at: aTrack positionInScore ) duration.
+		]ifFalse: [
+			aTrack timerCounter: aTrack timerCounter + ( aTrack track at: aTrack positionInScore ) duration.
+		].
 	self nextPlayNoteOn: ( aTrack track at: aTrack positionInScore ) onChannel: aTrack channel.

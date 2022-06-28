@@ -1,5 +1,5 @@
 initialization
 resetScore
-	self score tracks do: [ :each |
+	self tracks do: [ :each |
 			each resetTrack
 		 ]
