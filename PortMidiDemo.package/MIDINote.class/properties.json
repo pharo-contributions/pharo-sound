@@ -10,6 +10,7 @@
 		"DefaultVelocity"
 	],
 	"instvars" : [
+		"midiKey",
 		"note",
 		"octave",
 		"duration",
