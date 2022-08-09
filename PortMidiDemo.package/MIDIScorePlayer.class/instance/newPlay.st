@@ -1,17 +1,13 @@
 playing
-replay
-	"Replays a musical prestation of this MIDIScorePlayer instance. If no modification was done on its score, it just plays normally the score."
-	currentVersionIndex := 1.
-	score := (versions at: currentVersionIndex).
-	score resetScore.
+newPlay
+	"Plays scores at the same time. Freezes the Pharo image while the score is being played."
+	versions add: score.
 	
 	firstStartTime := Time millisecondClockValue.
 	startTime := Time millisecondClockValue.
 	[ true ] whileTrue: [
 			(self score doneTracks size = self score tracks size) ifTrue: [ 
 				Transcript show: 'reset score'; cr.
-				(versions size = 1) ifFalse: [
-					self checkForChange].
 				self score resetScore.
 				startTime := Time millisecondClockValue.
 				score modified ifTrue: [

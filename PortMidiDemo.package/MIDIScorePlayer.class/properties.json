@@ -13,7 +13,9 @@
 		"scoreVolume",
 		"score",
 		"versions",
-		"currentVersionIndex"
+		"currentVersionIndex",
+		"firstStartTime",
+		"startTime"
 	],
 	"name" : "MIDIScorePlayer",
 	"type" : "normal"

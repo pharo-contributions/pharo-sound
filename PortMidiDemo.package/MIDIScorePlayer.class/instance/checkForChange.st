@@ -1,15 +1,12 @@
 liveCoding
 checkForChange
-	| keys |
-	keys := self versions keys.
-	keys do: [ :each | 
-			(( each - PortMidiLibrary uniqueInstance getTime ) between: -1 and: 1) ifTrue: [
-					( self score = (self versions at: each) ) ifFalse: [ 
-							self score: (self versions at: each).
-							self score tracks do: [ :track |
-									track timerCounter: PortMidiLibrary uniqueInstance getTime.
-								 ].
-							self score displayScore
-						 ] 
-				 ]
-		 ]
+
+	| currentTime lastTime "nextVersion" maxIterationTime |
+	currentTime := Time millisecondClockValue - firstStartTime.
+	lastTime := (versions at: currentVersionIndex) time.
+	maxIterationTime := self getCurrentScoreMaxIterationTime.
+
+	[ ( currentVersionIndex < versions size ) and: 
+	[(versions at: currentVersionIndex + 1) time between: lastTime and: currentTime + maxIterationTime] ] whileTrue: [ 
+		currentVersionIndex := currentVersionIndex + 1.
+		score := versions at: currentVersionIndex ].

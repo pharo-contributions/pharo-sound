@@ -1,0 +1,3 @@
+modifications
+changeAllVelocity: aVelocity
+	self setToModified changeAllVelocity: aVelocity

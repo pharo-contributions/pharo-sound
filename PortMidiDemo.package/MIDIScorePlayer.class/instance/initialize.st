@@ -5,4 +5,5 @@ initialize
 	instance := PortMidiLibrary uniqueInstance.
 	self scoreVolume: self class defaultVolume.
 	self currentVersionIndex: 1.
-	versions := OrderedDictionary new.
+	versions := OrderedCollection new.
+	startTime := 0
