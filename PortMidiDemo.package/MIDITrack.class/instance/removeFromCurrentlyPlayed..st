@@ -1,0 +1,3 @@
+modifications
+removeFromCurrentlyPlayed: anEvent
+	currentlyPlayed remove: anEvent

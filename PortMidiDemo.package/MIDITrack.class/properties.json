@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "AD 8/1/2022 11:58",
+	"super" : "Object",
+	"category" : "PortMidiDemo-Source",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"DefaultVelocity"
+	],
+	"instvars" : [
+		"events",
+		"nextEventIndex",
+		"channel",
+		"muted",
+		"currentlyPlayed"
+	],
+	"name" : "MIDITrack",
+	"type" : "normal"
+}
