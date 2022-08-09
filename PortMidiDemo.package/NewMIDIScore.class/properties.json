@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "AD 8/2/2022 16:46",
+	"super" : "Object",
+	"category" : "PortMidiDemo-Source",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tracks",
+		"tempos",
+		"currentTempoIndex",
+		"doneTracks",
+		"modified",
+		"time"
+	],
+	"name" : "NewMIDIScore",
+	"type" : "normal"
+}

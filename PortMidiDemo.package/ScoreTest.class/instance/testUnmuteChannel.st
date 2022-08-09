@@ -1,9 +1,9 @@
 tests
 testUnmuteChannel
 	| aScore |
-	aScore := Score new.
-	aScore addTrack: InstrumentScore new named: #Bass.
-	aScore addTrack: (InstrumentScore new) named: #Guitar.
+	aScore := NewMIDIScore new.
+	aScore addTrack: MIDITrack new named: #Bass.
+	aScore addTrack: (MIDITrack new) named: #Guitar.
 	aScore muteChannel: 1.
 	aScore muteChannel: 2.
 	aScore unmuteChannel: 2.

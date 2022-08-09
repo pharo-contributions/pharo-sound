@@ -1,4 +1,4 @@
-channelManagement
+modification
 muteChannel: aChannel
 	"Mutes aChannel in the score : the track on aChannel is not played anymore."
 	self tracks do: [ :each |
