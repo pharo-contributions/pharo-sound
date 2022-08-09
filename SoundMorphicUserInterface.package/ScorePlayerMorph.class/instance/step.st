@@ -1,5 +1,5 @@
 stepping and presenter
 step
 
-	scrollSlider adjustToValue: scorePlayer positionInScore.
+	scrollSlider adjustToValue: scorePlayer nextEventIndex.
 

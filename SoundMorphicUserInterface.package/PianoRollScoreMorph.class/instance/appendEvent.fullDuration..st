@@ -3,7 +3,7 @@ appendEvent: noteEvent fullDuration: fullDuration
 
 	| sel x |
 	score appendEvent: noteEvent fullDuration: fullDuration at: (sel := self selection).
-	noteEvent midiKey = -1 ifFalse:  "Unless it is a rest..."
+	noteEvent midiNote = -1 ifFalse:  "Unless it is a rest..."
 		["Advance the selection to the note just entered"
 		selection := Array with: sel first with: sel third + 1 with: sel third + 1].
 

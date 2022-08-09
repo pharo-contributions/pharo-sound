@@ -7,8 +7,8 @@ scrollControl
 		sliderColor: Color gray;
 		extent: 360@2;
 		target: scorePlayer;
-		actionSelector: #positionInScore:;
-		adjustToValue: scorePlayer positionInScore.
+		actionSelector: #nextEventIndex:;
+		adjustToValue: scorePlayer nextEventIndex.
 	r := self makeRow
 		hResizing: #shrinkWrap;
 		vResizing: #rigid;

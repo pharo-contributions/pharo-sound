@@ -21,12 +21,12 @@ addNotes
 		done := scorePlayer mutedForTrack: trackIndex.
 		[done | (i > track size)] whileFalse: [
 			n := track at: i.
-			(n isNoteEvent and: [n midiKey >= lowestNote]) ifTrue: [
+			(n isNoteEvent and: [n midiNote >= lowestNote]) ifTrue: [
 				n time > rightEdgeTime
 					ifTrue: [done := true]
 					ifFalse: [
 						nLeft := self xForTime: n time.
-						nTop := (self yForMidiKey: n midiKey) - 1.
+						nTop := (self yForMidiKey: n midiNote) - 1.
 						nTop > topEdge ifTrue: [
 							nRight := nLeft + (n duration * timeScale) truncated - 1.
 							visibleMorphs add:

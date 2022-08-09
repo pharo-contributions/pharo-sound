@@ -7,5 +7,5 @@ updateLowestNote
 	score tracks do: [:track | | n |
 		1 to: track size do: [:i |
 			n := track at: i.
-			(n isNoteEvent and: [n midiKey < lowestNote])
-				ifTrue: [lowestNote := n midiKey - 4]]].
+			(n isNoteEvent and: [n midiNote < lowestNote])
+				ifTrue: [lowestNote := n midiNote - 4]]].
