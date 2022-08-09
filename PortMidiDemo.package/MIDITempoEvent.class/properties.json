@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "AD 8/8/2022 16:29",
+	"super" : "Object",
+	"category" : "PortMidiDemo-Source",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"time",
+		"tempo"
+	],
+	"name" : "MIDITempoEvent",
+	"type" : "normal"
+}
