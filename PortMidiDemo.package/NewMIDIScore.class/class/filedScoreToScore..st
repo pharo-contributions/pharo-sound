@@ -8,8 +8,10 @@ filedScoreToScore: aFiledScore
 	size := tracks size.
 	tempos := OrderedCollection new.
 	aFiledScore tempoMap do: [ :each |
-		tempos add: (MIDITempoEvent new time: each time; tempo: (each tempo)) ].
+		tempos add: (MIDITempoEvent new time: each time; tempo: (each tempo / 1000)) ].
 	newScore tempos: tempos.
+	newScore ticksPerQuarterNote: aFiledScore ticksPerQuarterNote.
+	newScore millisecsPerTick: newScore millisecsPerTick.
 	1 to: size do: [ :index |
 		newScore addTrack: (MIDITrack filedTrackToInstrumentScore: (tracks at: index))
 					named: (infos at: index).

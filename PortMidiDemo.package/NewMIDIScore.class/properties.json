@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "AD 8/2/2022 16:46",
+	"commentStamp" : "AD 8/10/2022 08:39",
 	"super" : "Object",
 	"category" : "PortMidiDemo-Source",
 	"classinstvars" : [ ],
@@ -9,6 +9,8 @@
 		"tracks",
 		"tempos",
 		"currentTempoIndex",
+		"ticksPerQuarterNote",
+		"millisecsPerTick",
 		"doneTracks",
 		"modified",
 		"time"
