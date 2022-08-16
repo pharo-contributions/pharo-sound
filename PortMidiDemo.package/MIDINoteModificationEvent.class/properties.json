@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "PortMidiDemo-Source",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"trackName",
+		"noteIndex",
+		"newNote"
+	],
+	"name" : "MIDINoteModificationEvent",
+	"type" : "normal"
+}
