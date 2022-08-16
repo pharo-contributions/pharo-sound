@@ -6,7 +6,7 @@ playTrackNoteOnEvents: aTrack fromTime: aTime
 	
 	( nextEvent time + aTime < Time millisecondClockValue ) ifTrue: [ 
 		self nextPlayNoteOn: nextEvent onChannel: aTrack channel.
-		self wrapper isNil ifFalse: [ self wrapper manageNoteEvent: nextEvent ].
+		self wrapper ifNotNil: [ self wrapper manageEvent: nextEvent ofType: 'PlayNote'].
 		aTrack addToCurrentlyPlayed: nextEvent.
 		aTrack nextEventIndex: aTrack nextEventIndex + 1 ].
 	
