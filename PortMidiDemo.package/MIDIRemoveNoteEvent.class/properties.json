@@ -8,9 +8,8 @@
 	"instvars" : [
 		"time",
 		"trackName",
-		"noteIndex",
-		"newNote"
+		"noteIndex"
 	],
-	"name" : "MIDINoteModificationEvent",
+	"name" : "MIDIRemoveNoteEvent",
 	"type" : "normal"
 }
