@@ -1,6 +1,6 @@
 eventManagement
-manageEvent: anEvent ofType: typeName
+manageNoteEvent: anEvent
 	| newEvent time |
 	time := Time millisecondClockValue - midiPlayer firstStartTime.
 	newEvent := anEvent toString.
-	log := log, typeName, ':', time asString, ':', anEvent toString, String cr
+	log := log, 'PlayNote:', time asString, ':', anEvent toString, String cr
