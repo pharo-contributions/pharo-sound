@@ -1,0 +1,3 @@
+outputManagement
+openMidiOutWithDevice: aDeviceID
+	midiPlayer openMidiOutWithDevice: aDeviceID

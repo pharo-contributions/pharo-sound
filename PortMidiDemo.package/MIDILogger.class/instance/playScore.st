@@ -1,0 +1,3 @@
+playing
+playScore
+	^ midiPlayer playScore

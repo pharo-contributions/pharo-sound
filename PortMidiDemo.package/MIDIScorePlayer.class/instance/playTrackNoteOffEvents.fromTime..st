@@ -8,11 +8,12 @@ playTrackNoteOffEvents: aTrack fromTime: aTime
 		^ self yourself ].
 
 	played := aTrack currentlyPlayed select: [ :each | 
-		          each time + aTime + (self getRealNoteValues: each duration)
+		          each time + aTime + each duration
 		          < Time millisecondClockValue ].
 
 	played do: [ :each | 
 		self nextPlayNoteOff: each onChannel: aTrack channel.
+		"self wrapper ifNotNil: [self wrapper manageEvent: each ofType: 'NoteOff']."
 		aTrack removeFromCurrentlyPlayed: each ].
 
 	^ self yourself

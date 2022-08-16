@@ -4,9 +4,9 @@ playTrackNoteOnEvents: aTrack fromTime: aTime
 	(aTrack nextEventIndex > aTrack events size) ifTrue: [ ^ self yourself ].
 	nextEvent := aTrack events at: aTrack nextEventIndex.
 	
-	( (self getRealNoteValues: nextEvent time) + aTime < Time millisecondClockValue ) ifTrue: [ 
-		Transcript show: 'Playing a note'; cr.
+	( nextEvent time + aTime < Time millisecondClockValue ) ifTrue: [ 
 		self nextPlayNoteOn: nextEvent onChannel: aTrack channel.
+		self wrapper ifNotNil: [self wrapper manageEvent: nextEvent ofType: 'NoteOn'].
 		aTrack addToCurrentlyPlayed: nextEvent.
 		aTrack nextEventIndex: aTrack nextEventIndex + 1 ].
 	

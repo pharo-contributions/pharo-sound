@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "PortMidiDemo-Source",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"midiPlayer",
+		"logName",
+		"log"
+	],
+	"name" : "MIDILogger",
+	"type" : "normal"
+}

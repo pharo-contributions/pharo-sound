@@ -15,7 +15,8 @@
 		"versions",
 		"currentVersionIndex",
 		"firstStartTime",
-		"startTime"
+		"startTime",
+		"wrapper"
 	],
 	"name" : "MIDIScorePlayer",
 	"type" : "normal"
