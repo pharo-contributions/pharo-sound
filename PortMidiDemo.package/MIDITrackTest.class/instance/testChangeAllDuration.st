@@ -3,7 +3,7 @@ testChangeAllDuration
 	| aTrack |
 	aTrack := MIDITrack new.
 	3 timesRepeat: [ | aNote |
-		aNote := MIDINote new.
+		aNote := MIDINoteEvent new.
 		aTrack addEventToTrack: aNote ].
 	aTrack events do: [ :each |
 		self assert: each duration equals: 500 ].

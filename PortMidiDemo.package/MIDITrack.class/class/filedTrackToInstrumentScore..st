@@ -5,7 +5,7 @@ filedTrackToInstrumentScore: aFiledTrack
 	newTrack := self new.
 	aFiledTrack do: [ :each |
 		each isNoteEvent ifTrue: [
-				newTrack addEventToTrack: (MIDINote new noteValue: each midiNote; duration: each duration; velocity: each velocity; time: each time)
+				newTrack addEventToTrack: (MIDINoteEvent new noteValue: each midiNote; duration: each duration; velocity: each velocity; time: each time)
 			]
 		 ].
 	^ newTrack

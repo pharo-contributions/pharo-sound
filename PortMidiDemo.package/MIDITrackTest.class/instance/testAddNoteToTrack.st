@@ -1,7 +1,7 @@
 tests
 testAddNoteToTrack
 	| aNote aTrack |
-	aNote := MIDINote new noteValue: 71;
+	aNote := MIDINoteEvent new noteValue: 71;
 		duration: 1000.
 	aTrack := MIDITrack new.
 	aTrack addEventToTrack: aNote.

@@ -1,7 +1,7 @@
 tests
 testCreateNoteOnFor
 	| noteOnMessage |
-	noteOnMessage := MIDIScorePlayer new createNoteOnFor: (MIDINote new noteValue: 60).
+	noteOnMessage := MIDIScorePlayer new createNoteOnFor: (MIDINoteEvent new noteValue: 60).
 	
 	self assert: (instance portMidiGetStatusFromMessage: noteOnMessage) equals: 16r90.
 	self assert: (instance portMidiGetFirstDataFromMessage: noteOnMessage) equals: 16r3C.

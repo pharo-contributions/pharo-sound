@@ -14,6 +14,6 @@
 		"velocity",
 		"time"
 	],
-	"name" : "MIDINote",
+	"name" : "MIDINoteEvent",
 	"type" : "normal"
 }

@@ -8,13 +8,13 @@ testGetCurrentScoreMaxIterationTime
 	score addTrack: anotherTrack named: 'anotherTrack'.
 	player := MIDIScorePlayer new score: score.
 	
-	aTrack addEventToTrack: ( MIDINote new time: 0 ).
-	aTrack addEventToTrack: ( MIDINote new time: 2000 ).
-	aTrack addEventToTrack: ( MIDINote new time: 5000 ).
+	aTrack addEventToTrack: ( MIDINoteEvent new time: 0 ).
+	aTrack addEventToTrack: ( MIDINoteEvent new time: 2000 ).
+	aTrack addEventToTrack: ( MIDINoteEvent new time: 5000 ).
 	
-	anotherTrack addEventToTrack: ( MIDINote new time: 0 ).
-	anotherTrack addEventToTrack: ( MIDINote new time: 1000 ).
-	anotherTrack addEventToTrack: ( MIDINote new time: 4000 ).
-	anotherTrack addEventToTrack: ( MIDINote new time: 7000 ).
+	anotherTrack addEventToTrack: ( MIDINoteEvent new time: 0 ).
+	anotherTrack addEventToTrack: ( MIDINoteEvent new time: 1000 ).
+	anotherTrack addEventToTrack: ( MIDINoteEvent new time: 4000 ).
+	anotherTrack addEventToTrack: ( MIDINoteEvent new time: 7000 ).
 	
 	self assert: player getCurrentScoreMaxIterationTime equals: 7000

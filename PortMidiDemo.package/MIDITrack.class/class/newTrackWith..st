@@ -4,6 +4,6 @@ newTrackWith: aNoteArray
 	| aTrack |
 	aTrack := self new.
 	aNoteArray do: [ :value |
-			aTrack addEventToTrack: (MIDINote new noteValue: value; duration: MIDINote defaultDuration )
+			aTrack addEventToTrack: (MIDINoteEvent new noteValue: value; duration: MIDINoteEvent defaultDuration )
 		 ].
 	^ aTrack

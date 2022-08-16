@@ -1,3 +1,3 @@
 tests
 testDefaultDuration
-	self assert: MIDINote defaultDuration equals: 500
+	self assert: MIDINoteEvent defaultDuration equals: 500
