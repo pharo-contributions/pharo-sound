@@ -8,14 +8,14 @@ newPlay
 	[ true ] whileTrue: [
 			(self score doneTracks size = self score tracks size) ifTrue: [ 
 				Transcript show: 'reset score'; cr.
-				self score resetScore.
+				self wrapper ifNotNil: [ self wrapper resetScore ] ifNil: [ self score resetScore ].
 				startTime := Time millisecondClockValue.
 				score modified ifTrue: [
 					self score modified: false.
 					self score: (self versions at: currentVersionIndex)]].
 			self score tracks do: [ :track |
 				track muted ifFalse: [
-						self playTrackNoteOnEvents: track fromTime: startTime.
+						self playTrackEvents: track fromTime: startTime.
 						self playTrackNoteOffEvents: track fromTime: startTime.
 					 ]
 				]

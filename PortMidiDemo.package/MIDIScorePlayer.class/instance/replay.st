@@ -19,7 +19,7 @@ replay
 					self score: (self versions at: currentVersionIndex)]].
 			self score tracks do: [ :track |
 				track muted ifFalse: [
-						self playTrackNoteOnEvents: track fromTime: startTime.
+						self playTrackEvents: track fromTime: startTime.
 						self playTrackNoteOffEvents: track fromTime: startTime.
 					 ]
 				]

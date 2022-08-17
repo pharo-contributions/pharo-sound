@@ -12,7 +12,8 @@
 		"noteValue",
 		"duration",
 		"velocity",
-		"time"
+		"time",
+		"trackName"
 	],
 	"name" : "MIDINoteEvent",
 	"type" : "normal"

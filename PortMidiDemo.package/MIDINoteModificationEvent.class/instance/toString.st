@@ -1,3 +1,3 @@
 printing
 toString
-	^ trackName, ':', noteIndex asString, ':', newNote toString
+	^ noteIndex asString, ':', newNote toString

@@ -6,7 +6,7 @@ simplePlay
 	[self score doneTracks size = self score tracks size] whileFalse: [
 		self score tracks do: [ :track |
 			track muted ifFalse: [
-					self playTrackNoteOnEvents: track fromTime: startTime.
+					self playTrackEvents: track fromTime: startTime.
 					self playTrackNoteOffEvents: track fromTime: startTime.
 				 ]
 			]
