@@ -1,3 +1,3 @@
 modifications
 removeTrack: aTrackName
-	self setToModified removeTrack: aTrackName
+	self score removeTrack: aTrackName

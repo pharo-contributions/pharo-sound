@@ -1,3 +1,3 @@
 printing
 toString
-	^ trackName, ':', noteIndex asString
+	^ 'RemoveNote:', time asString, ':', trackName, ':', noteIndex asString

@@ -1,3 +1,3 @@
 modifications
 unmuteTrack: aTrackName
-	self setToModified unmuteTrack: aTrackName
+	self score unmuteTrack: aTrackName

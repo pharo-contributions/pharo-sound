@@ -12,8 +12,8 @@
 		"midiOut",
 		"scoreVolume",
 		"score",
-		"versions",
-		"currentVersionIndex",
+		"modifications",
+		"nextModificationIndex",
 		"firstStartTime",
 		"startTime",
 		"wrapper"

@@ -1,3 +1,4 @@
 playing
 playScore
-	^ midiPlayer playScore
+	self addScoreToLog.
+	^ midiPlayer playScore.

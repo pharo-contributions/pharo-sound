@@ -1,3 +1,3 @@
 printing
 toString
-	^ noteIndex asString, ':', newNote toString
+	^ 'ModifyNote:', time asString, ':', trackName, ':', noteIndex asString, ':', newNote toString

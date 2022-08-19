@@ -1,3 +1,3 @@
 modifications
 changeAllVelocity: aVelocity
-	self setToModified changeAllVelocity: aVelocity
+	self score changeAllVelocity: aVelocity

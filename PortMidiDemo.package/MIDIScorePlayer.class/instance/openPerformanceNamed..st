@@ -1,4 +1,4 @@
-as yet unclassified
+inputManagement
 openPerformanceNamed: aName
 	| file stream content |
 	file := aName asFileReference.

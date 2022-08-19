@@ -1,3 +1,3 @@
 modifications
 unmuteChannel: aChannel
-	self setToModified unmuteChannel: aChannel
+	self score unmuteChannel: aChannel

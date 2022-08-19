@@ -1,4 +1,4 @@
 modifications
 addTrack: aTrack named: aString
-	"Adds a new score to the score collection."
-	self setToModified addTrack: aTrack named: aString
+	"Adds a new track to the score collection."
+	self score addTrack: aTrack named: aString
