@@ -9,5 +9,5 @@ changeNoteDurationInTrack: aTrackName at: aNoteIndex to: aNoteDuration
 		]ifFalse:[
 			newNote := (track events at: aNoteIndex) veryDeepCopy.
 			newNote duration: aNoteDuration.
-			modifications add: (MIDINoteModificationEvent new time: eventTime; trackName: aTrackName; noteIndex: aNoteIndex; newNote: newNote )
+			self insertModification: (MIDINoteModificationEvent new time: eventTime; trackName: aTrackName; noteIndex: aNoteIndex; newNote: newNote )
 		]

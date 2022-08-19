@@ -1,7 +1,10 @@
 as yet unclassified
 savePrestationAsFile
-	| file |
+	| file stream |
 	file :=(logName, '.perf') asFileReference.
 	file ensureDelete.
-	file writeStreamDo: [ :stream | stream nextPutAll: log ]
+	stream := file writeStream.
+	stream nextPutAll: log.
+	stream flush;close.
+"	file writeStreamDo: [ :stream | stream nextPutAll: log ]."
 	

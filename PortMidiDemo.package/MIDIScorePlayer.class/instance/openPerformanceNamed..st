@@ -8,5 +8,5 @@ openPerformanceNamed: aName
 	[content isNil] whileFalse: [ |event|
 			event := content substrings: ':'.
 			self addEventToScore: event.
-			content := stream nextLine
+			content := stream nextLine.
 		 ]
