@@ -1,4 +1,4 @@
-as yet unclassified
+createLogger
 logger
 	| logger |
 	logger := MIDILogger new.

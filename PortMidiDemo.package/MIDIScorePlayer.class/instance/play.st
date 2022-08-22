@@ -1,13 +1,12 @@
 playing
-newPlay
-	"Plays scores at the same time. Freezes the Pharo image while the score is being played."
+play
+	"Plays a MIDI performance as many times as desired."
 	
 	firstStartTime := Time millisecondClockValue.
 	startTime := Time millisecondClockValue.
 	[ true ] whileTrue: [
 			(self score doneTracks size = self score tracks size) ifTrue: [ 
 				self score doneTracks do: [ :each | Transcript show: each channel; cr. ].
-				Transcript show: 'reset score'; cr.
 				self score resetScore.
 				(nextModificationIndex <= modifications size) ifTrue: [self applyNextModification].
 				startTime := Time millisecondClockValue].

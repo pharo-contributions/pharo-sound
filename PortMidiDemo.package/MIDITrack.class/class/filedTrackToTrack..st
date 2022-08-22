@@ -1,5 +1,5 @@
-as yet unclassified
-filedTrackToInstrumentScore: aFiledTrack
+readMIDIFile
+filedTrackToTrack: aFiledTrack
 "Converts a track of a filed MIDI score into an InstrumentScore."
 	| newTrack |
 	newTrack := self new.

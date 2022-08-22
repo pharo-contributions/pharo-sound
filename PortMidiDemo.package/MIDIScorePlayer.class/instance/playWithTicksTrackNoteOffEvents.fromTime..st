@@ -1,10 +1,10 @@
 playing
 playWithTicksTrackNoteOffEvents: aTrack fromTime: aTime
-
+	"Same as playTrackNoteOffEvents:fromTime: but to play MIDI files."
 	| played |
 	aTrack currentlyPlayed ifEmpty: [ 
 		aTrack nextEventIndex > aTrack events size ifTrue: [ 
-			self score doneTracks add: aTrack ].
+			self score addToDoneTracks: aTrack ].
 		^ self yourself ].
 
 	played := aTrack currentlyPlayed select: [ :each | 

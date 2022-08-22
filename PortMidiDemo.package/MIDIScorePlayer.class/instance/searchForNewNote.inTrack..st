@@ -1,4 +1,4 @@
-as yet unclassified
+modifications
 searchForNewNote: noteIndex inTrack: trackName
 	| newNotes |
 	newNotes := modifications select: [ :each | (each className = 'MIDIAddNoteEvent') and: (each trackName = trackName) ].

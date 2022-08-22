@@ -1,4 +1,4 @@
-as yet unclassified
+readMIDIFile
 filedScoreToScore: aFiledScore
 "Converts a MIDI score obtained with a file reader method into a Score."
 	| newScore tracks infos size tempos|
@@ -13,7 +13,7 @@ filedScoreToScore: aFiledScore
 	newScore ticksPerQuarterNote: aFiledScore ticksPerQuarterNote.
 	newScore millisecsPerTick: newScore millisecsPerTick.
 	1 to: size do: [ :index |
-		newScore addTrack: (MIDITrack filedTrackToInstrumentScore: (tracks at: index))
+		newScore addTrack: (MIDITrack filedTrackToTrack: (tracks at: index))
 					named: (infos at: index).
 		 ].
 	^ newScore

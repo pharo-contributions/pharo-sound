@@ -1,4 +1,4 @@
-as yet unclassified
+modifications
 insertModification: aModification
 	| index |
 	modifications isEmpty ifFalse: [ 

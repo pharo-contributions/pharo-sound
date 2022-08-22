@@ -1,4 +1,4 @@
 playing
 playTrackNamed: aName
-	"This method is called when there is only one track to play ( or with a multi-thread code )."
+	"This method is called when there is only one track to play."
 	self playTrack: (self score at: aName)

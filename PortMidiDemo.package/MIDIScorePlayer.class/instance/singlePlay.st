@@ -1,5 +1,5 @@
 playing
-simplePlay
+singlePlay
 	"Plays a score one time."
 	firstStartTime := Time millisecondClockValue.
 	startTime := Time millisecondClockValue.

@@ -1,5 +1,6 @@
 modifications
 removeFromTrack: aTrackName at: aNoteIndex
+	"Removes the note at aNoteIndex from the track named aTrackName."
 	|eventTime|
 	eventTime := Time millisecondClockValue - self firstStartTime.
 	(aNoteIndex > (score tracks at: aTrackName) events size)ifTrue:[

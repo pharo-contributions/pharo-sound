@@ -1,5 +1,6 @@
 playing
 playWithTicksTrackNoteOnEvents: aTrack fromTime: aTime
+	"Same as playTrackNoteOnEvents:fromTime: but to play MIDI files."
 	| nextEvent|
 	(aTrack nextEventIndex > aTrack events size) ifTrue: [ ^ self yourself ].
 	nextEvent := aTrack events at: aTrack nextEventIndex.

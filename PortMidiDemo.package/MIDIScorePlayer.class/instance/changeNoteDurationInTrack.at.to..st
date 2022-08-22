@@ -1,5 +1,6 @@
 modifications
 changeNoteDurationInTrack: aTrackName at: aNoteIndex to: aNoteDuration
+	"Changes the duration of the note at aNoteIndex in the track named aTrackName."
 	| newNote eventTime track |
 	track := (score tracks at: aTrackName).
 	eventTime := Time millisecondClockValue - self firstStartTime.

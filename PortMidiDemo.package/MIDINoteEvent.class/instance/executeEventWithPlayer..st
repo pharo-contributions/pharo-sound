@@ -1,7 +1,7 @@
-as yet unclassified
+execution
 executeEventWithPlayer: aMIDIScorePlayer
+	"Plays the note."
 	| track |
-	Transcript show: 'playing a note'; cr.
 	track := (aMIDIScorePlayer score tracks at: self trackName).
 	aMIDIScorePlayer nextPlayNoteOn: self onChannel: track channel.
 	track addToCurrentlyPlayed: self.

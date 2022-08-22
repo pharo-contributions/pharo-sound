@@ -1,4 +1,4 @@
 modifications
 addTrack: aTrack named: aString
-	"Adds a new track to the score collection."
+	"Adds a new track to the score."
 	self score addTrack: aTrack named: aString

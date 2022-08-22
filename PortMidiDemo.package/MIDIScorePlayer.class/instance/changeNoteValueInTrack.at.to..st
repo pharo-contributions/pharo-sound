@@ -1,5 +1,6 @@
 modifications
 changeNoteValueInTrack: aTrackName at: aNoteIndex to: aNoteValue
+	"Changes the value of the note at aNoteIndex in the track named aTrackName."
 	| newNote eventTime track |
 	track := (score tracks at: aTrackName).
 	eventTime := Time millisecondClockValue - self firstStartTime.

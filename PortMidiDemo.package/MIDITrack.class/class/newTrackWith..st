@@ -1,4 +1,4 @@
-instance creation
+instanceCreation
 newTrackWith: aNoteArray
 	"Creates a new Score with aNoteArray and returns it."
 	| aTrack |

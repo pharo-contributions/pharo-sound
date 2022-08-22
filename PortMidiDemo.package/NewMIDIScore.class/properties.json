@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "AD 8/10/2022 08:39",
+	"commentStamp" : "AD 8/22/2022 14:06",
 	"super" : "Object",
 	"category" : "PortMidiDemo-Source",
 	"classinstvars" : [ ],
@@ -11,9 +11,7 @@
 		"currentTempoIndex",
 		"ticksPerQuarterNote",
 		"millisecsPerTick",
-		"doneTracks",
-		"modified",
-		"time"
+		"doneTracks"
 	],
 	"name" : "NewMIDIScore",
 	"type" : "normal"

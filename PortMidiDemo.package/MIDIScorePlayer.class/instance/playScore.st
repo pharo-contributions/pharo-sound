@@ -4,6 +4,6 @@ playScore
 	PortMidiLibrary uniqueInstance portMidiInitialize.
 	self openMidiOutWithDevice: 3.
 	^ ['Start playing ...' traceCr.
-		self newPlay.
+		self play.
 		self closeMidiOut.
 		'Stop playing ...' traceCr] fork

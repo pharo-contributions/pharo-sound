@@ -1,4 +1,13 @@
-I represent one single MIDI score.
-I have one track and one instrument that plays this track.
-My instance variable positionInScore is an index and is used when playing several scores at the same time.
-My instance variable timerCounter is used when playing several scores at the same time too. It keeps in memory the time the timer needs to reach before sending a noteOff message while playing the track.
+### Description
+I represent a track that has one or several MIDI notes.
+
+### Main collaborator
+- NewMIDIScore : several of my instances can be contained in a score.
+- MIDINoteEvent : I can contain several MIDI notes and modify them.
+
+### Instance Variables
+- events: a collection of MIDINoteEvent.
+- nextEventIndex: the index of the next note to play.
+- channel: the MIDI channel the notes are played on.
+- muted: a boolean to know if the track is muted or not.
+- currentlyPlayed: a collection of MIDINoteEvent that are currently played.
