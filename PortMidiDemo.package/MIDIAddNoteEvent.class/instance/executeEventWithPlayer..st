@@ -1,4 +1,4 @@
-as yet unclassified
+execution
 executeEventWithPlayer: aMIDIScorePlayer
-	Transcript show: 'adding a note'; cr.
+	"Adds newNote to the track named trackName."
 	(aMIDIScorePlayer score tracks at: trackName) addEventToTrack: newNote.
