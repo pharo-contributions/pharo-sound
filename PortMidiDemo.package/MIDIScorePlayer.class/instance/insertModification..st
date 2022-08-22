@@ -1,7 +1,13 @@
 as yet unclassified
 insertModification: aModification
 	| index |
-	index := 1.
-	[(modifications at: index) time > aModification time] whileFalse: [ 
-		index := index + 1 ].
-	modifications add: aModification beforeIndex: index + 1
+	modifications isEmpty ifFalse: [ 
+			index := 1.
+			[(index < modifications size) and: [(modifications at: index) time <= aModification time]] whileTrue: [ 
+				index := index + 1 ].
+			(index = modifications size) ifTrue: [ modifications add: aModification ]
+			ifFalse: [ modifications add: aModification beforeIndex: index + 1 ].
+		 ]
+	ifTrue: [ 
+			modifications add: aModification
+		 ]
