@@ -6,7 +6,6 @@ play
 	startTime := Time millisecondClockValue.
 	[ true ] whileTrue: [
 			(self score doneTracks size = self score tracks size) ifTrue: [ 
-				self score doneTracks do: [ :each | Transcript show: each channel; cr. ].
 				self score resetScore.
 				(nextModificationIndex <= modifications size) ifTrue: [self applyNextModification].
 				startTime := Time millisecondClockValue].

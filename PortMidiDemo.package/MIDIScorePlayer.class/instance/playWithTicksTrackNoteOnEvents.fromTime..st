@@ -6,7 +6,6 @@ playWithTicksTrackNoteOnEvents: aTrack fromTime: aTime
 	nextEvent := aTrack events at: aTrack nextEventIndex.
 	
 	((nextEvent time * score millisecsPerTick) + aTime < Time millisecondClockValue) ifTrue: [ 
-		Transcript show: 'Playing a note'; cr.
 		self nextPlayNoteOn: nextEvent onChannel: aTrack channel.
 		aTrack addToCurrentlyPlayed: nextEvent.
 		aTrack nextEventIndex: aTrack nextEventIndex + 1 ].

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "AntoineDelaby 8/25/2022 16:13",
+	"super" : "Object",
+	"category" : "PortMidiDemo-Source",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MIDILoggerExample",
+	"type" : "normal"
+}

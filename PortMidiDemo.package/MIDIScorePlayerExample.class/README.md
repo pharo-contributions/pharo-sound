@@ -1,0 +1,1 @@
+I have examples of use of the MIDIScorePlayer class.
