@@ -1,0 +1,3 @@
+private tests
+ticksPerQuarter
+	^ ticksPerQuarter 

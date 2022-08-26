@@ -1,0 +1,3 @@
+private tests
+maxNoteTicks
+	^ maxNoteTicks 
