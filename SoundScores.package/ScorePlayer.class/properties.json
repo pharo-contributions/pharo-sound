@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "AnObsoleteAbstractSound",
+	"super" : "AbstractSound",
 	"category" : "SoundScores-MIDI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
