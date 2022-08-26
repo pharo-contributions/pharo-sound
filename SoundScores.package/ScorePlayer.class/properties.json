@@ -1,0 +1,32 @@
+{
+	"commentStamp" : "",
+	"super" : "AnObsoleteAbstractSound",
+	"category" : "SoundScores-MIDI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"score",
+		"instruments",
+		"overallVolume",
+		"leftVols",
+		"rightVols",
+		"muted",
+		"rate",
+		"tempo",
+		"secsPerTick",
+		"done",
+		"repeat",
+		"ticksSinceStart",
+		"ticksClockIncr",
+		"trackEventIndex",
+		"tempoMapIndex",
+		"activeSounds",
+		"activeMIDINotes",
+		"midiPort",
+		"midiPlayerProcess",
+		"durationInTicks"
+	],
+	"name" : "ScorePlayer",
+	"type" : "normal"
+}

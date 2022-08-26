@@ -1,0 +1,4 @@
+testing
+isOn
+
+	^ process notNil

@@ -1,0 +1,4 @@
+accessing
+midiPort
+
+	^ midiParser midiPort

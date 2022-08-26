@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SoundScores-MIDI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tracks",
+		"trackInfo",
+		"ambientTrack",
+		"tempoMap",
+		"ticksPerQuarterNote"
+	],
+	"name" : "MIDIScore",
+	"type" : "normal"
+}

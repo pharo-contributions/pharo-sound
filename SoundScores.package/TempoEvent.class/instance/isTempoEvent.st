@@ -1,0 +1,4 @@
+classification
+isTempoEvent
+
+	^ true

@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SoundScores-MIDI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"midiParser",
+		"channels",
+		"process"
+	],
+	"name" : "MIDISynth",
+	"type" : "normal"
+}

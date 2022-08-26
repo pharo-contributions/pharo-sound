@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "Morph",
+	"category" : "SoundScores-MIDI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"SoundPlaying"
+	],
+	"instvars" : [
+		"trackIndex",
+		"indexInTrack",
+		"hitLoc",
+		"editMode",
+		"selected",
+		"notePlaying"
+	],
+	"name" : "PianoRollNoteMorph",
+	"type" : "normal"
+}

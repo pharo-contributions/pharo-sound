@@ -1,0 +1,27 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SoundScores-MIDI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"DefaultMidiTable"
+	],
+	"instvars" : [
+		"cmdActionTable",
+		"midiPort",
+		"received",
+		"rawDataBuffer",
+		"sysExBuffer",
+		"ignoreSysEx",
+		"startTime",
+		"timeNow",
+		"state",
+		"lastSelector",
+		"lastCmdByte",
+		"argByte1",
+		"argByte2"
+	],
+	"name" : "MIDIInputParser",
+	"type" : "normal"
+}

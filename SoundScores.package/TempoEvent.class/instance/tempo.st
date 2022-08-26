@@ -1,0 +1,4 @@
+accessing
+tempo
+
+	^ tempo
