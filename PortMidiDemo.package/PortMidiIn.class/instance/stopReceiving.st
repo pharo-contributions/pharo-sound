@@ -3,4 +3,5 @@ stopReceiving
 
 	process ifNotNil: [
 		process terminate.
-		process := nil ]
+		process := nil.
+		buffer := nil ]
