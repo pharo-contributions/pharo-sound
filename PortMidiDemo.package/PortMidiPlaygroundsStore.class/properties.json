@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "PortMidiDemo-PortMidi",
+	"category" : "PortMidiDemo-Dev",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "PortMidiPlayground",
+	"name" : "PortMidiPlaygroundsStore",
 	"type" : "normal"
 }

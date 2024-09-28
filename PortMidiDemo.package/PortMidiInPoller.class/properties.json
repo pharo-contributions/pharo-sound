@@ -2,13 +2,15 @@
 	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "PortMidiDemo-Core",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"soleInstance"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"stream",
-		"id"
+		"inputs",
+		"pollingProcess"
 	],
-	"name" : "PortMidiAbstractInOrOut",
+	"name" : "PortMidiInPoller",
 	"type" : "normal"
 }

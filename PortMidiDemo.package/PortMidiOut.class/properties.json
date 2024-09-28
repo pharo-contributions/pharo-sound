@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "PortMidiAbstractInOrOut",
-	"category" : "PortMidiDemo-PortMidi",
+	"category" : "PortMidiDemo-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

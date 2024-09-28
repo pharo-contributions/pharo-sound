@@ -1,4 +1,4 @@
 instance creation
-newFromResolvedName: aName
+newForPortNamed: aName
 
 	^ self newForId: (self pmLib idOfInputPortNamed: aName)

@@ -1,13 +1,14 @@
 {
 	"commentStamp" : "",
 	"super" : "PortMidiAbstractInOrOut",
-	"category" : "PortMidiDemo-PortMidi",
+	"category" : "PortMidiDemo-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"buffer",
-		"process"
+		"process",
+		"receiverBlock"
 	],
 	"name" : "PortMidiIn",
 	"type" : "normal"
