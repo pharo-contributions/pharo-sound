@@ -1,4 +1,4 @@
 ffi calls
-getDefaultOutputDeviceID
+getCountDevices	
 	"Calls the PortMidi C library method that get the default MIDI Output device available."
-	^ self ffiCall: #( int Pm_GetDefaultOutputDeviceID() )
+	^ self ffiCall: #( int Pm_CountDevices() )

@@ -1,0 +1,4 @@
+private
+pmLib
+
+	^PortMidiLibrary uniqueInstance

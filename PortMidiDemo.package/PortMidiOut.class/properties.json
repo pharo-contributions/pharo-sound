@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PortMidiAbstractInOrOut",
+	"category" : "PortMidiDemo-PortMidi",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PortMidiOut",
+	"type" : "normal"
+}
