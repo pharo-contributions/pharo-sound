@@ -1,6 +1,6 @@
 accessing
 open
 
-	stream ifNotNil: [ self error: 'this port is already open' ].
-	stream := self pmLib createNewPointerForStreamWithType: 'void**'.
+	handle ifNotNil: [ self error: 'this port is already open' ].
+	handle := self interface createNewPointerForStreamWithType: 'void**'.
 	^ self

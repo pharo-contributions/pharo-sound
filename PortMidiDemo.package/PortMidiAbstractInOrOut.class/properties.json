@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"stream",
-		"id"
+		"id",
+		"handle"
 	],
 	"name" : "PortMidiAbstractInOrOut",
 	"type" : "normal"

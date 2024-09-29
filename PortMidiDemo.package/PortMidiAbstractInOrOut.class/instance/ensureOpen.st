@@ -1,5 +1,5 @@
 instance creation
 ensureOpen
 
-	stream ifNotNil: [ ^ self ].
+	handle ifNotNil: [ ^ self ].
 	self open

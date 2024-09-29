@@ -1,4 +1,4 @@
 private
-pmLib
+interface
 
 	^PortMidiLibrary uniqueInstance

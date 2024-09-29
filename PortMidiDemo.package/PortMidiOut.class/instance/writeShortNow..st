@@ -1,7 +1,7 @@
 services
 writeShortNow: aMessage
 
-	self pmLib
-		writeShortOn: self stream value
+	self interface
+		writeShortOn: handle value
 		when: 0
 		theMessage: aMessage

@@ -1,5 +1,5 @@
 services
 close
 
-	self pmLib portMidiCloseIOStream: stream value.
-	stream := nil
+	self interface portMidiCloseIOStream: handle value.
+	handle := nil
