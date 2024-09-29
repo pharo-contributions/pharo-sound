@@ -11,13 +11,13 @@ pg_2024_09_28
 	pm idOfInputPortNamed: pm inputPortNames last.
 	pm idOfOutputPortNamed: pm outputPortNames second.
 
-	out := PortMidiOut newForPortNamed: 'IAC-besturingsbestand Bus 1'.
+	out := PortMidiApi outputPortNamed: 'IAC-besturingsbestand Bus 1'.
 	out open.
 
-	in := PortMidiIn newForPortNamed: 'SL GRAND Poort 1'.
+	in := PortMidiApi inputPortNamed: 'SL GRAND Poort 1'.
 	in onMessageReceiveDo: [ :msg | out writeShortNow: msg message ].
 
-	in2 := PortMidiIn newForPortNamed: 'IAC-besturingsbestand Bus 1'.
+	in2 := PortMidiApi inputPortNamed: 'IAC-besturingsbestand Bus 1'.
 	in2 onMessageReceiveDo: [ :msg | msg crTrace ].
 	in2 close.
 
