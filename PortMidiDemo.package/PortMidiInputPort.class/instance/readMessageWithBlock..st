@@ -6,5 +6,5 @@ readMessageWithBlock: aBlock
 		            readOn: handle value
 		            inBuffer: buffer
 		            withSize: 1) ~= 0.
-	success ifTrue: [aBlock value: buffer].
+	success ifTrue: [ aBlock value: self bufferAsByteArray ].
 	^ success
