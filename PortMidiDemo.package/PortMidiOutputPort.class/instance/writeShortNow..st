@@ -1,4 +1,4 @@
-services
+private
 writeShortNow: aMessage
 
 	self interface
