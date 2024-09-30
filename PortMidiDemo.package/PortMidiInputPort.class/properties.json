@@ -1,11 +1,15 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "PortMidiAbstractPort",
 	"category" : "PortMidiDemo-API",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "PortMidiApi",
+	"instvars" : [
+		"buffer",
+		"process",
+		"receiverBlock"
+	],
+	"name" : "PortMidiInputPort",
 	"type" : "normal"
 }

@@ -5,7 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "PortMidiApi",
+	"instvars" : [
+		"portName",
+		"handle"
+	],
+	"name" : "PortMidiAbstractPort",
 	"type" : "normal"
 }

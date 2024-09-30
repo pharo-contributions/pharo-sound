@@ -1,0 +1,4 @@
+api
+open
+
+	self subclassResponsibility

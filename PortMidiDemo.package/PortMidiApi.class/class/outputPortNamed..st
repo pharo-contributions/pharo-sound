@@ -1,4 +1,6 @@
 private
 outputPortNamed: aName
 
-	^ PortMidiOut newForId: (self interface idOfOutputPortNamed: aName)
+	^ PortMidiOutputPort new
+		  portName: aName;
+		  yourself
