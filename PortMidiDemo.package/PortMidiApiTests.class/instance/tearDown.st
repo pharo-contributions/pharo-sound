@@ -1,3 +1,3 @@
 running
 tearDown
-	api interface portMidiTerminate
+	api terminate
