@@ -1,8 +1,10 @@
 private
 bufferAsByteArray
 
+	| msg |
+	msg := buffer message.
 	^ {
-		  (self interface portMidiGetStatusFromMessage: buffer).
-		  (self interface portMidiGetFirstDataFromMessage: buffer).
-		  (self interface portMidiGetSecondDataFromMessage: buffer) }
+		  (self interface portMidiGetStatusFromMessage: msg).
+		  (self interface portMidiGetFirstDataFromMessage: msg).
+		  (self interface portMidiGetSecondDataFromMessage: msg) }
 		  asByteArray
