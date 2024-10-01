@@ -1,4 +1,4 @@
-api
+private
 ensureBufferArray
 
 	bufferArray ifNotNil: [ bufferArray isNull ifFalse: [ ^ self ] ].

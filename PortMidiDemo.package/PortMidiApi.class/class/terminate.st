@@ -1,6 +1,6 @@
 private
-terminate 
+terminate
 
-	self interface portMidiTerminate.
 	PortMidiInPoller soleInstance stopPolling.
 	PortMidiInPoller resetSoleInstance.
+	self interface portMidiTerminate

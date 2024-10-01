@@ -1,4 +1,4 @@
-api
+private
 ensureOpenAndPolling
 
 	self ensureOpen.

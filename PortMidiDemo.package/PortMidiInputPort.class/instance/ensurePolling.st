@@ -1,4 +1,4 @@
-api
+private
 ensurePolling
 
 	self ensureBufferArray.
