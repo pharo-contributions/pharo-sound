@@ -3,5 +3,5 @@ onMessageReceiveDo: aBlock
 
 	self ensureOpen.
 	receiverBlock := aBlock.
-	buffer := PortMidiEvent new.
+	bufferArray := (FFIArray ofType: PortMidiEvent size: self bufferArraySizeOrDefault) new.
 	PortMidiInPoller add: self

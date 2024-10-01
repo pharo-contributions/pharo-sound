@@ -6,9 +6,11 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"buffer",
+		"bufferArray",
 		"process",
-		"receiverBlock"
+		"receiverBlock",
+		"bufferArraySize",
+		"sysexBuffer"
 	],
 	"name" : "PortMidiInputPort",
 	"type" : "normal"
