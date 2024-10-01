@@ -9,5 +9,5 @@ readNextArrayBuffer
 	numberOfBuffersRead < 0 ifTrue: [
 		self error: (self interface getErrorText: numberOfBuffersRead) ].
 	1 to: numberOfBuffersRead do: [ :idx |
-	self handleNext4ByteMessage: (bufferArray at: idx) first4Bytes ].
+	self handleNextPortMidiEvent: (bufferArray at: idx) ].
 	^ numberOfBuffersRead > 0

@@ -8,9 +8,9 @@ open
 		openInputForStream: tempHandle
 		withDevice: id
 		withInputDriverInfos: nil
-		withBufferSize: 0
+		withBufferSize: 0 "PortMidi will take a default size if this size is 0"
 		withTimeProcedure: nil
-		andTimeInfos: nil. "PortMidi will take a default size if this size is 0"
+		andTimeInfos: nil. 
 	tempHandle isNull
 		ifFalse: [ handle := tempHandle ]
 		ifTrue: [
