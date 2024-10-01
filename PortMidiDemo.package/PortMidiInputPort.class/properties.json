@@ -10,7 +10,8 @@
 		"process",
 		"receiverBlock",
 		"bufferArraySize",
-		"sysexBuffer"
+		"sysexBuffer",
+		"sysexReceiverBlock"
 	],
 	"name" : "PortMidiInputPort",
 	"type" : "normal"

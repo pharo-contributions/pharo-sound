@@ -1,3 +1,4 @@
 private
-handleSysexMessage: message 
+handleSysexMessage: message
 
+	sysexReceiverBlock value: message
