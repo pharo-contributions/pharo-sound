@@ -5,9 +5,9 @@ testSendAndReceiveSysex
 	out := api outputPortNamed: self outputPortNameThatLoopsBack.
 	out open.
 	in := api inputPortNamed: self inputPortNameThatLoopsBack.
-	in onSysexReceiveDo: [ :ev | received := ev ].
+	in onMessageReceiveDo: [ :ev | received := ev ].
 	msg := #[16rF0 10 11 12 13 14 15 16 17 18 19 20 16rF7]. 
-	sendResult := out writeSysEx: msg.
+	sendResult := out sendMessage: msg.
 	3 milliSeconds wait.
 	self assert: received notNil.
 	self assert: received asByteArray equals: msg .

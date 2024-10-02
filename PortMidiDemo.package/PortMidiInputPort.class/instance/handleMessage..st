@@ -1,4 +1,4 @@
 private
-handleNormalMessage: midiMessage
+handleMessage: midiMessage
 
 	receiverBlock value: midiMessage

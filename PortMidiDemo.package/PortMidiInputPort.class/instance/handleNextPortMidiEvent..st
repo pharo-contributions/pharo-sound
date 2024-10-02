@@ -2,12 +2,12 @@ private
 handleNextPortMidiEvent: pmEvent
 
 	pmEvent isRealtimeEvent ifTrue: [
-		self handleRealtimeMessage: pmEvent messageBytes.
+		self handleMessage: pmEvent messageBytes.
 		^ self ].
 	pmEvent isNormalEvent ifTrue: [
 		sysexBuffer ifNotNil: [ "means the sysex message was somehow truncated. This is not considered an error; e.g., a missing EOX can result from the user disconnecting a MIDI cable during sysex transmission"
 			sysexBuffer := nil ].
-		self handleNormalMessage: pmEvent messageBytes.
+		self handleMessage: pmEvent messageBytes.
 		^ self ].
 	"Check if it's a SysEx start (0xF0)"
 	pmEvent isSysexStartEvent ifTrue: [
@@ -20,7 +20,7 @@ handleNextPortMidiEvent: pmEvent
 			ifFalse: [ sysexBuffer addAll: pmEvent messageBytes ]
 			ifTrue: [
 				sysexBuffer addAll: pmEvent sysexEndingBytes.
-				self handleSysexMessage: sysexBuffer.
+				self handleMessage: sysexBuffer.
 				sysexBuffer := nil ].
 		^ self ].
 	self error: 'unexpected midi input'
