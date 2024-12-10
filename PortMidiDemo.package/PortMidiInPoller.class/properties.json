@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "PortMidiDemo-Core",
+	"classinstvars" : [
+		"soleInstance"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"inputs",
+		"pollingProcess"
+	],
+	"name" : "PortMidiInPoller",
+	"type" : "normal"
+}

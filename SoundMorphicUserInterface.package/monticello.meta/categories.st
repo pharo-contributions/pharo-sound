@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #SoundMorphicUserInterface!
+self packageOrganizer ensurePackage: #SoundMorphicUserInterface withTags: #()!

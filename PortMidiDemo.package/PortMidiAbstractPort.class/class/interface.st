@@ -1,0 +1,4 @@
+private
+interface
+
+	^PortMidiLibrary uniqueInstance

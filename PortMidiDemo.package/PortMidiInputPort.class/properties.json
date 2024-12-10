@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "PortMidiAbstractPort",
+	"category" : "PortMidiDemo-API",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bufferArray",
+		"process",
+		"receiverBlock",
+		"bufferArraySize",
+		"sysexBuffer",
+		"sysexReceiverBlock"
+	],
+	"name" : "PortMidiInputPort",
+	"type" : "normal"
+}
