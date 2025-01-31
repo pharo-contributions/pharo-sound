@@ -5,5 +5,5 @@ soleInstance
 	soleInstance ifNil: [
 		soleInstance := self basicNew
 			                initialize;
-			                yourSelf ].
+			                yourself ].
 	^ soleInstance
